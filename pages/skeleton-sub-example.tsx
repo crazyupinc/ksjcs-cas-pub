@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import Header1 from "./header";
+import Header1 from "./header1";
 import SubBanner from "./sub-banner";
-import Footer1 from "../components/footer";
+import Footer from "./footer";
 
 const SkeletonSubExample: NextPage = () => {
   return (
@@ -12,7 +12,7 @@ const SkeletonSubExample: NextPage = () => {
       <div className="self-stretch bg-colors-blue-300 h-[13.75rem] flex flex-col items-center justify-start sm:h-[10.625rem]">
         <SubBanner />
       </div>
-      <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start min-h-[31.25rem]">
+      <div className="self-stretch bg-bg-colors-white flex flex-col items-center justify-start min-h-[31.25rem]">
         <div className="self-stretch flex flex-col items-center justify-start py-[1.25rem] px-[0rem]">
           <div className="w-full flex flex-col items-start justify-start p-[0.625rem] box-border max-w-[81.25rem]">
             <b className="self-stretch relative leading-[2.25rem]">
@@ -35,7 +35,7 @@ const SkeletonSubExample: NextPage = () => {
         </div>
       </div>
       <div className="self-stretch bg-colors-green-300 flex flex-col items-center justify-start">
-        <Footer1 />
+        <Footer />
       </div>
     </div>
   );
