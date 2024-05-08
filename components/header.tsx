@@ -1,25 +1,8 @@
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
 
-export type HeaderType = {
-  /** Style props */
-  headerWidth?: CSSProperties["width"];
-  headerHeight?: CSSProperties["height"];
-};
-
-const Header: NextPage<HeaderType> = ({ headerWidth, headerHeight }) => {
-  const headerStyle: CSSProperties = useMemo(() => {
-    return {
-      width: headerWidth,
-      height: headerHeight,
-    };
-  }, [headerWidth, headerHeight]);
-
+const Header: NextPage = () => {
   return (
-    <div
-      className="w-[1920px] bg-text-colors-dark-gray max-w-full h-[124px] flex flex-row items-center justify-center p-2.5 box-border text-left text-17xl text-text-colors-amber font-headings-heading-4"
-      style={headerStyle}
-    >
+    <div className="w-[1920px] bg-text-colors-dark-gray max-w-full h-[124px] flex flex-row items-center justify-center p-2.5 box-border text-left text-17xl text-text-colors-amber font-headings-headling-2">
       <div className="w-[1300px] flex flex-row flex-wrap items-center justify-between max-w-[1300px]">
         <b className="w-[200px] relative text-29xl leading-[48px] flex items-center shrink-0 md:text-17xl">
           LOGO
