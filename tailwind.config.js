@@ -24,6 +24,8 @@ module.exports = {
         "colors-slate-500": "#64748b",
         "bg-colors-light-gray": "#fafafa",
         gray: "#676f82",
+        "colors-gray-300": "#d1d5db",
+        "colors-cyan-950": "#083344",
       },
       spacing: {
         "spacing-2": "8px",
