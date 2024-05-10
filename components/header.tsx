@@ -38,7 +38,7 @@ const Header: NextPage = () => {
           <div className="self-stretch w-[325px] flex flex-row items-center justify-start">
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch flex flex-col items-start justify-center">
               <img
-                className="w-[200px] relative h-[57.8px] object-cover mq420:w-[150px] mq420:h-[43px]"
+                className="w-[200px] relative h-[57.8px] object-cover mq350small:w-[150px] mq350small:h-[43px]"
                 alt="CyberComLogo"
                 loading="eager"
                 src="/navbarbrand@2x.png"

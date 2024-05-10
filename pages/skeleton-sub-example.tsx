@@ -40,7 +40,7 @@ const SkeletonSubExample: NextPage = () => {
               <div className="self-stretch w-[20.313rem] flex flex-row items-center justify-start">
                 <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch flex flex-col items-start justify-center">
                   <img
-                    className="w-[12.5rem] relative h-[3.613rem] object-cover mq420:w-[9.375rem] mq420:h-[2.688rem]"
+                    className="w-[12.5rem] relative h-[3.613rem] object-cover mq350small:w-[9.375rem] mq350small:h-[2.688rem]"
                     alt="CyberComLogo"
                     loading="eager"
                     src="/navbarbrand@2x.png"

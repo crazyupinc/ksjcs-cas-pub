@@ -24,7 +24,6 @@ module.exports = {
         "colors-slate-300": "#cbd5e1",
         "text-colors-gray": "#404040",
         "colors-slate-50": "#f8fafc",
-        black: "#000",
         "text-colors-dark-gray": "#111827",
         "text-colors-amber": "#f59e0b",
         "colors-indigo-300": "#a5b4fc",
@@ -38,6 +37,7 @@ module.exports = {
         "colors-gray-300": "#d1d5db",
         "colors-cyan-950": "#083344",
         "dark-gray": "#334158",
+        black: "#000",
       },
       spacing: {
         "spacing-5": "20px",
@@ -73,8 +73,8 @@ module.exports = {
       sm: {
         max: "640px",
       },
-      mq420: {
-        raw: "screen and (max-width: 420px)",
+      mq350small: {
+        raw: "screen and (max-width: 350px)",
       },
     },
   },

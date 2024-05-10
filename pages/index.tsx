@@ -18,6 +18,13 @@ const Index1: NextPage = () => {
       >
         http://localhost:3000/skeleton-sub-example
       </a>
+      <a
+        className="self-stretch relative [text-decoration:underline] leading-[2.5rem] font-bold text-[inherit]"
+        href="http://localhost:3000/header-layout"
+        target="_blank"
+      >
+        http://localhost:3000/header-layout
+      </a>
     </div>
   );
 };
