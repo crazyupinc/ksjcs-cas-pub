@@ -14,7 +14,7 @@ const Header: NextPage = () => {
                 alt="icon-login"
                 src="/iconlogin.svg"
               />
-              <div className="w-[44.6px] relative text-sm leading-[20px] font-headings-headling-2 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
+              <div className="w-[44.6px] relative text-sm leading-[20px] font-navbar-sub-item text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 로그인
               </div>
@@ -25,7 +25,7 @@ const Header: NextPage = () => {
                 alt="icon-register"
                 src="/iconregister.svg"
               />
-              <div className="w-[58px] relative text-sm leading-[20px] font-headings-headling-2 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
+              <div className="w-[58px] relative text-sm leading-[20px] font-navbar-sub-item text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 회원가입
               </div>
