@@ -14,7 +14,7 @@ const Header: NextPage = () => {
                 alt="icon-login"
                 src="/iconlogin.svg"
               />
-              <div className="w-[44.6px] relative text-sm leading-[20px] font-headings-headling-2 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
+              <div className="w-[44.6px] relative text-sm leading-[20px] font-headings-heading-4 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 로그인
               </div>
@@ -25,7 +25,7 @@ const Header: NextPage = () => {
                 alt="icon-register"
                 src="/iconregister.svg"
               />
-              <div className="w-[58px] relative text-sm leading-[20px] font-headings-headling-2 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
+              <div className="w-[58px] relative text-sm leading-[20px] font-headings-heading-4 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 회원가입
               </div>
@@ -34,11 +34,11 @@ const Header: NextPage = () => {
         </div>
       </div>
       <div className="self-stretch h-[70px] flex flex-col items-center justify-center">
-        <div className="w-full flex-1 flex flex-row items-center justify-between py-0 px-[15px] box-border max-w-[1300px]">
+        <div className="w-full flex-1 flex flex-row items-start justify-between py-0 px-[15px] box-border max-w-[1300px]">
           <div className="w-[325px] flex flex-row items-center justify-start">
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-start justify-center">
               <img
-                className="w-[138px] relative h-10 object-cover mq350small:w-[103px] mq350small:h-[30px]"
+                className="w-[138px] relative h-10 object-cover mq420:w-[103px] mq420:h-[30px]"
                 alt="CyberComLogo"
                 loading="eager"
                 src="/navbarbrand@2x.png"
