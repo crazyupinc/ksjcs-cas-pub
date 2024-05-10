@@ -33,11 +33,10 @@ module.exports = {
         "spacing-5": "20px",
         "spacing-0-5": "2px",
         "spacing-2-5": "10px",
-        "spacing-2": "8px",
-        "spacing-10": "40px",
         "spacing-4": "16px",
+        "spacing-8": "32px",
         "spacing-1": "4px",
-        "spacing-21": "8px",
+        "spacing-2": "8px",
       },
       fontFamily: {
         "headings-headling-2": "NanumGothic",
