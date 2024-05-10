@@ -2,9 +2,9 @@ import type { NextPage } from "next";
 
 const AgreementTerms: NextPage = () => {
   return (
-    <div className="w-full relative bg-button-colors-white overflow-hidden flex flex-row items-start justify-center p-[1.25rem] box-border text-left text-[1rem] text-text-colors-dark-gray font-headings-headling-2 md:flex-col">
+    <div className="w-full relative bg-bg-colors-white overflow-hidden flex flex-row items-start justify-center p-[1.25rem] box-border text-left text-[1rem] text-text-colors-dark-gray font-headings-headling-2 md:flex-col">
       <div className="flex-1 flex flex-col items-center justify-start md:flex-[unset] md:self-stretch">
-        <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start py-[5rem] px-[0rem] gap-[3.75rem]">
+        <div className="self-stretch bg-bg-colors-white flex flex-col items-center justify-start py-[5rem] px-[0rem] gap-[3.75rem]">
           <div className="w-full h-[18.375rem] flex flex-col items-center justify-start gap-[1rem] max-w-[81.25rem]">
             <div className="self-stretch flex flex-col items-start justify-start p-[0.625rem]">
               <div className="self-stretch relative font-extrabold">
@@ -1328,11 +1328,11 @@ const AgreementTerms: NextPage = () => {
             </div>
           </div>
           <div className="flex flex-row items-center justify-start gap-[0.5rem] text-colors-slate-950 font-body-text-caption-bold">
-            <div className="w-[1rem] relative bg-button-colors-white box-border h-[1rem] border-[1px] border-solid border-colors-slate-500" />
+            <div className="w-[1rem] relative bg-bg-colors-white box-border h-[1rem] border-[1px] border-solid border-colors-slate-500" />
             <div className="relative leading-[1.5rem]">모든 약관에 동의</div>
           </div>
           <button className="cursor-pointer [border:none] py-[0.875rem] px-[1.75rem] bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-[1rem] font-headings-headling-2 text-button-colors-white text-center">
+            <div className="relative text-[1rem] font-headings-headling-2 text-bg-colors-white text-center">
               회원가입 계속 진행
             </div>
           </button>

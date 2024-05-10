@@ -32,7 +32,7 @@ const SubBanner: NextPage = () => {
     };
   }, []);
   return (
-    <div className="w-[1440px] max-w-full h-[220px] flex flex-col items-center justify-end bg-[url('/subbanner@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-normal text-center text-29xl text-button-colors-white font-headings-headling-2">
+    <div className="w-[1440px] max-w-full h-[220px] flex flex-col items-center justify-end bg-[url('/subbanner@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-normal text-center text-29xl text-bg-colors-white font-headings-headling-2">
       <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-5">
         <div className="self-stretch flex flex-col items-center justify-center gap-[4px]">
           <h1
@@ -53,7 +53,7 @@ const SubBanner: NextPage = () => {
         <div className="w-[640px] flex flex-row flex-wrap items-start justify-center max-w-[640px]">
           <div className="flex-1 h-[50px] flex flex-col items-center justify-end min-w-[297px] max-w-[400px] sm:hidden">
             <div className="self-stretch flex-1 flex flex-col items-start justify-start">
-              <div className="self-stretch bg-button-colors-white box-border h-[50.7px] flex flex-row items-center justify-start p-3.5 gap-[14px] border-[0.7px] border-solid border-colors-slate-300">
+              <div className="self-stretch bg-bg-colors-white box-border h-[50.7px] flex flex-row items-center justify-start p-3.5 gap-[14px] border-[0.7px] border-solid border-colors-slate-300">
                 <div className="flex-1 relative overflow-hidden text-ellipsis whitespace-nowrap">
                   학회 소개
                 </div>
@@ -67,7 +67,7 @@ const SubBanner: NextPage = () => {
           </div>
           <div className="flex-1 h-[50px] flex flex-col items-center justify-end min-w-[297px] max-w-[400px]">
             <div className="self-stretch flex-1 flex flex-col items-start justify-start">
-              <div className="self-stretch bg-button-colors-white box-border h-[50.7px] flex flex-row items-center justify-start p-3.5 gap-[14px] border-[0.7px] border-solid border-colors-slate-300">
+              <div className="self-stretch bg-bg-colors-white box-border h-[50.7px] flex flex-row items-center justify-start p-3.5 gap-[14px] border-[0.7px] border-solid border-colors-slate-300">
                 <div className="flex-1 relative overflow-hidden text-ellipsis whitespace-nowrap">
                   회장인사말
                 </div>

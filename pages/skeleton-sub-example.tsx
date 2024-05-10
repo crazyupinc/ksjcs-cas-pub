@@ -249,7 +249,7 @@ const SkeletonSubExample: NextPage = () => {
         <SubBanner1 />
       </div>
       <div className="self-stretch bg-colors-indigo-300 h-[11.25rem] flex flex-col items-center justify-start sm:h-[7.5rem]">
-        <div className="self-stretch flex-1 bg-button-colors-white flex flex-col items-center justify-center py-[3.125rem] px-[1.25rem]">
+        <div className="self-stretch flex-1 bg-bg-colors-white flex flex-col items-center justify-center py-[3.125rem] px-[1.25rem]">
           <div className="self-stretch flex flex-col items-center justify-start gap-[0.375rem]">
             <div className="flex flex-row items-start justify-center py-[0rem] pr-[1.437rem] pl-[0rem] gap-[0.375rem]">
               <img
@@ -267,7 +267,7 @@ const SkeletonSubExample: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start min-h-[31.25rem] text-black">
+      <div className="self-stretch bg-bg-colors-white flex flex-col items-center justify-start min-h-[31.25rem] text-black">
         <div className="self-stretch flex flex-col items-center justify-start py-[1.25rem] px-[0rem]">
           <div className="w-full flex flex-col items-start justify-start p-[0.625rem] box-border max-w-[81.25rem]">
             <b className="self-stretch relative leading-[2.25rem]">
