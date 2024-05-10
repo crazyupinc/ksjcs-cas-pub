@@ -36,11 +36,11 @@ const SkeletonSubExample: NextPage = () => {
             </div>
           </div>
           <div className="self-stretch bg-bg-colors-light-gray h-[4.375rem] flex flex-col items-center justify-center">
-            <div className="w-full flex-1 flex flex-row items-start justify-between py-[0rem] px-[0.937rem] box-border max-w-[81.25rem]">
-              <div className="w-[20.313rem] flex flex-row items-center justify-start">
-                <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-start justify-center">
+            <div className="w-full flex-1 flex flex-row items-center justify-between py-[0rem] px-[0.937rem] box-border max-w-[81.25rem]">
+              <div className="self-stretch w-[20.313rem] flex flex-row items-center justify-start">
+                <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch flex flex-col items-start justify-center">
                   <img
-                    className="w-[12.5rem] relative h-[3.613rem] object-cover mq420:w-[6.438rem] mq420:h-[1.875rem]"
+                    className="w-[12.5rem] relative h-[3.613rem] object-cover mq420:w-[9.375rem] mq420:h-[2.688rem]"
                     alt="CyberComLogo"
                     loading="eager"
                     src="/navbarbrand@2x.png"
@@ -49,42 +49,42 @@ const SkeletonSubExample: NextPage = () => {
               </div>
               <div className="self-stretch flex-1 flex flex-row items-center justify-between md:hidden">
                 <div className="self-stretch flex-1 flex flex-col items-center justify-start">
-                  <button className="cursor-pointer [border:none] pt-spacing-4 px-spacing-0-5 pb-spacing-8 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] pt-spacing-5 px-spacing-0-5 pb-spacing-7 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
                     <b className="self-stretch relative text-[1.125rem] leading-[1.25rem] font-headings-headling-2 text-text-colors-normal text-center hover:text-button-colors-dark-sky">
                       학회 소개
                     </b>
                   </button>
                 </div>
                 <div className="self-stretch flex-1 flex flex-col items-center justify-start">
-                  <button className="cursor-pointer [border:none] pt-spacing-4 px-spacing-0-5 pb-spacing-8 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] pt-spacing-5 px-spacing-0-5 pb-spacing-7 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
                     <b className="self-stretch relative text-[1.125rem] leading-[1.25rem] font-headings-headling-2 text-text-colors-normal text-center hover:text-button-colors-dark-sky">
                       학회 소식
                     </b>
                   </button>
                 </div>
                 <div className="self-stretch flex-1 flex flex-col items-center justify-start">
-                  <button className="cursor-pointer [border:none] pt-spacing-4 px-spacing-0-5 pb-spacing-8 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] pt-spacing-5 px-spacing-0-5 pb-spacing-7 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
                     <b className="self-stretch relative text-[1.125rem] leading-[1.25rem] font-headings-headling-2 text-text-colors-normal text-center hover:text-button-colors-dark-sky">
                       학술지
                     </b>
                   </button>
                 </div>
                 <div className="self-stretch flex-1 flex flex-col items-center justify-start">
-                  <button className="cursor-pointer [border:none] pt-spacing-4 px-spacing-0-5 pb-spacing-8 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] pt-spacing-5 px-spacing-0-5 pb-spacing-7 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
                     <b className="self-stretch relative text-[1.125rem] leading-[1.25rem] font-headings-headling-2 text-text-colors-normal text-center hover:text-button-colors-dark-sky">
                       게시판
                     </b>
                   </button>
                 </div>
                 <div className="self-stretch flex-1 flex flex-col items-center justify-start">
-                  <button className="cursor-pointer [border:none] pt-spacing-4 px-spacing-0-5 pb-spacing-8 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] pt-spacing-5 px-spacing-0-5 pb-spacing-7 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
                     <b className="self-stretch relative text-[1.125rem] leading-[1.25rem] font-headings-headling-2 text-text-colors-normal text-center hover:text-button-colors-dark-sky">
                       회원 공간
                     </b>
                   </button>
                 </div>
                 <div className="self-stretch flex-1 flex flex-col items-center justify-start">
-                  <button className="cursor-pointer [border:none] pt-spacing-4 px-spacing-0-5 pb-spacing-8 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
+                  <button className="cursor-pointer [border:none] pt-spacing-5 px-spacing-0-5 pb-spacing-7 bg-[transparent] self-stretch flex-1 flex flex-col items-center justify-start">
                     <b className="self-stretch relative text-[1.125rem] leading-[1.25rem] font-headings-headling-2 text-text-colors-normal text-center hover:text-button-colors-dark-sky">
                       자료실
                     </b>

@@ -34,11 +34,11 @@ const Header: NextPage = () => {
         </div>
       </div>
       <div className="self-stretch bg-bg-colors-light-gray h-[70px] flex flex-col items-center justify-center">
-        <div className="w-full flex-1 flex flex-row items-start justify-between py-0 px-[15px] box-border max-w-[1300px]">
-          <div className="w-[325px] flex flex-row items-center justify-start">
-            <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-start justify-center">
+        <div className="w-full flex-1 flex flex-row items-center justify-between py-0 px-[15px] box-border max-w-[1300px]">
+          <div className="self-stretch w-[325px] flex flex-row items-center justify-start">
+            <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch flex flex-col items-start justify-center">
               <img
-                className="w-[200px] relative h-[57.8px] object-cover mq420:w-[103px] mq420:h-[30px]"
+                className="w-[200px] relative h-[57.8px] object-cover mq420:w-[150px] mq420:h-[43px]"
                 alt="CyberComLogo"
                 loading="eager"
                 src="/navbarbrand@2x.png"
