@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const PageTitle: NextPage = () => {
   return (
-    <div className="w-[1920px] bg-bg-colors-white max-w-full h-[180px] flex flex-col items-center justify-center py-[50px] px-5 box-border text-left text-11xl text-text-colors-normal font-headings-heading-4">
+    <div className="w-[1920px] bg-button-colors-white max-w-full h-[180px] flex flex-col items-center justify-center py-[50px] px-5 box-border text-left text-11xl text-text-colors-normal font-headings-headling-2">
       <div className="self-stretch flex flex-col items-center justify-start gap-[6px]">
         <div className="flex flex-row items-start justify-center py-0 pr-[23px] pl-0 gap-[6px]">
           <img

@@ -5,7 +5,7 @@ import ItemMenuSub from "./item-menu-sub";
 const Header: NextPage = () => {
   return (
     <div className="w-[1920px] bg-bg-colors-light-gray max-w-full flex flex-col items-start justify-start">
-      <div className="self-stretch h-[54px] flex flex-col items-center justify-center py-spacing-4 px-[15px] box-border md:hidden">
+      <div className="self-stretch bg-bg-colors-light-gray h-[54px] flex flex-col items-center justify-center py-spacing-4 px-[15px] box-border md:hidden">
         <div className="w-full h-[22.4px] flex flex-row items-center justify-end py-0 px-[15px] box-border max-w-[1300px]">
           <div className="self-stretch flex flex-row items-center justify-start gap-[16px]">
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-center justify-start gap-[4px]">
@@ -14,7 +14,7 @@ const Header: NextPage = () => {
                 alt="icon-login"
                 src="/iconlogin.svg"
               />
-              <div className="w-[44.6px] relative text-sm leading-[20px] font-headings-heading-4 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
+              <div className="w-[44.6px] relative text-sm leading-[20px] font-headings-headling-2 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 로그인
               </div>
@@ -25,7 +25,7 @@ const Header: NextPage = () => {
                 alt="icon-register"
                 src="/iconregister.svg"
               />
-              <div className="w-[58px] relative text-sm leading-[20px] font-headings-heading-4 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
+              <div className="w-[58px] relative text-sm leading-[20px] font-headings-headling-2 text-text-colors-normal text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 회원가입
               </div>
@@ -33,7 +33,7 @@ const Header: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch h-[70px] flex flex-col items-center justify-center">
+      <div className="self-stretch bg-bg-colors-light-gray h-[70px] flex flex-col items-center justify-center">
         <div className="w-full flex-1 flex flex-row items-start justify-between py-0 px-[15px] box-border max-w-[1300px]">
           <div className="w-[325px] flex flex-row items-center justify-start">
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-col items-start justify-center">
@@ -74,7 +74,7 @@ const Header: NextPage = () => {
           </button>
         </div>
       </div>
-      <div className="self-stretch flex flex-col items-center justify-start pt-0 px-0 pb-spacing-5 md:hidden">
+      <div className="self-stretch bg-bg-colors-light-gray flex flex-col items-center justify-start pt-0 px-0 pb-spacing-5 md:hidden">
         <div className="w-full flex flex-row items-start justify-center py-0 pr-[15px] pl-[340px] box-border max-w-[1300px]">
           <div className="flex-1 flex flex-row items-start justify-between">
             <div className="flex-1 flex flex-col items-center justify-start">
