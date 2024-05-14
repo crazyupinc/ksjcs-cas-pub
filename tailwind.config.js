@@ -68,9 +68,9 @@ module.exports = {
         "text-small": "Inter",
       },
       borderRadius: {
+        "21xl": "40px",
         xl: "20px",
         "10xs": "3px",
-        "21xl": "40px",
         "default-border-raius": "4px",
         "default-border-raius1": "4px",
       },
@@ -85,8 +85,8 @@ module.exports = {
       smi: "0.813rem",
       "5xl": "1.5rem",
       "11xl": "1.875rem",
-      "2xs": "0.688rem",
       "7xl": "1.625rem",
+      "2xs": "0.688rem",
       inherit: "inherit",
     },
     screens: {
@@ -94,10 +94,10 @@ module.exports = {
         max: "960px",
       },
       sm: {
-        max: "420px",
+        max: "640px",
       },
-      mq350small: {
-        raw: "screen and (max-width: 350px)",
+      mq420: {
+        raw: "screen and (max-width: 420px)",
       },
     },
   },
