@@ -53,7 +53,10 @@ module.exports = {
         "gray-100": "#f2f4f7",
         "text-title-small": "#1e293b",
         "text-gray": "#6b7280",
-        gainsboro: "#e7e7e7",
+        gainsboro: {
+          "100": "#e7e7e7",
+          "200": "#d9d9d9",
+        },
         "colors-cyan-800": "#155e75",
         "semantic-success": "#22c55e",
         "colors-slate-400": "#94a3b8",
