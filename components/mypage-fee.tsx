@@ -1,4 +1,6 @@
 import type { NextPage } from "next";
+import TableMypageFeeRow from "./table-mypage-fee-row";
+import TableMypageFeeDataRow from "./table-mypage-fee-data-row";
 
 const MypageFee: NextPage = () => {
   return (
@@ -8,8 +10,8 @@ const MypageFee: NextPage = () => {
           <div className="w-full shadow-[8px_10px_16px_rgba(0,_0,_0,_0.05)] [backdrop-filter:blur(12px)] rounded-xl bg-colors-blue-50 overflow-hidden flex flex-col items-center justify-start pt-5 px-0 pb-0 box-border gap-[20px] max-w-[400px]">
             <div className="self-stretch flex flex-row items-center justify-between py-0 px-5 sm:pl-4 sm:pr-2 sm:box-border mq420:pl-2.5 mq420:pr-2.5 mq420:box-border">
               <b className="relative mq420:text-sm">사이버커뮤니케이션 학회</b>
-              <button className="cursor-pointer [border:none] py-1.5 px-0 bg-[transparent] rounded-md h-7 overflow-hidden flex flex-row items-center justify-center box-border hover:bg-royalblue sm:py-2.5 sm:px-4 sm:box-border mq420:py-2.5 mq420:px-4 mq420:box-border">
-                <b className="relative text-xs leading-[16px] font-headings-headling-2 text-button-colors-dark-sky text-center">
+              <button className="cursor-pointer [border:none] py-1.5 px-0 bg-[transparent] rounded-md h-7 overflow-hidden flex flex-row items-center justify-center box-border sm:py-2.5 sm:px-4 sm:box-border mq420:py-2.5 mq420:px-4 mq420:box-border">
+                <b className="relative text-xs leading-[16px] font-headings-headling-2 text-button-colors-dark-sky text-center hover:text-steelblue">
                   학회비 납부
                 </b>
                 <img
@@ -60,162 +62,38 @@ const MypageFee: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-full bg-bg-colors-white flex flex-col items-start justify-start max-w-[1300px] text-center text-sm text-text-title-small">
-            <div className="self-stretch overflow-hidden flex flex-col items-center justify-center min-w-[300px] sm:flex">
-              <div className="w-[1301.5px] relative box-border h-[1.5px] hidden border-t-[1.5px] border-solid border-colors-cyan-950 sm:flex mq420:flex" />
-              <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-t-[1.5px] border-solid border-colors-cyan-950 border-b-[1px] sm:hidden">
-                <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px] max-w-[300px] md:gap-[8px]">
-                  <b className="w-10 relative leading-[20px] flex items-center justify-center shrink-0 md:flex mq420:hidden">
-                    순번
-                  </b>
-                  <b className="flex-1 relative leading-[20px]">납부명</b>
-                </div>
-                <div className="flex-1 flex flex-row items-center justify-start">
-                  <b className="flex-1 relative leading-[20px] inline-block min-w-[90px]">
-                    납부 금액
-                  </b>
-                  <b className="flex-1 relative leading-[20px] inline-block min-w-[90px]">
-                    결제 수단
-                  </b>
-                  <b className="flex-1 relative leading-[20px] inline-block min-w-[90px]">
-                    신청 일시
-                  </b>
-                  <b className="flex-1 relative leading-[20px] inline-block min-w-[90px]">
-                    납부상태
-                  </b>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-light md:hover:bg-bg-light sm:flex-col">
-              <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-col">
-                <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px] max-w-[300px] md:gap-[8px] sm:flex-[unset] sm:self-stretch">
-                  <div className="w-10 relative leading-[20px] flex items-center justify-center shrink-0 md:flex sm:hidden mq420:hidden">
-                    1
-                  </div>
-                  <div className="flex-1 relative leading-[20px] text-button-colors-dark-sky text-left mq420:text-smi">
-                    가입비(준회원) 외 1건
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-row items-center justify-start md:flex-row sm:flex-row sm:flex-wrap sm:gap-[16px] sm:items-start sm:justify-start sm:flex-[unset] sm:self-stretch">
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    80,000 원
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    무통장 입금
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    2024-04-24
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    결제 대기중
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-light md:hover:bg-bg-light sm:flex-col">
-              <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-col">
-                <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px] max-w-[300px] md:gap-[8px] sm:flex-[unset] sm:self-stretch">
-                  <div className="w-10 relative leading-[20px] flex items-center justify-center shrink-0 md:flex sm:hidden mq420:hidden">
-                    2
-                  </div>
-                  <div className="flex-1 relative leading-[20px] text-button-colors-dark-sky text-left mq420:text-smi">
-                    가입비(준회원)
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-row items-center justify-start md:flex-row sm:flex-row sm:flex-wrap sm:gap-[16px] sm:items-start sm:justify-start sm:flex-[unset] sm:self-stretch">
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    50,000 원
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    무통장 입금
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    2024-04-24
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    결제 대기중
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-light md:hover:bg-bg-light sm:flex-col">
-              <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-col">
-                <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px] max-w-[300px] md:gap-[8px] sm:flex-[unset] sm:self-stretch">
-                  <div className="w-10 relative leading-[20px] flex items-center justify-center shrink-0 md:flex sm:hidden mq420:hidden">
-                    3
-                  </div>
-                  <div className="flex-1 relative leading-[20px] text-button-colors-dark-sky text-left mq420:text-smi">
-                    연회비(준회원)
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-row items-center justify-start md:flex-row sm:flex-row sm:flex-wrap sm:gap-[16px] sm:items-start sm:justify-start sm:flex-[unset] sm:self-stretch">
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    80,000 원
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    무통장 입금
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    2024-04-24
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    결제 대기중
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-light md:hover:bg-bg-light sm:flex-col">
-              <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-col">
-                <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px] max-w-[300px] md:gap-[8px] sm:flex-[unset] sm:self-stretch">
-                  <div className="w-10 relative leading-[20px] flex items-center justify-center shrink-0 md:flex sm:hidden mq420:hidden">
-                    4
-                  </div>
-                  <div className="flex-1 relative leading-[20px] text-button-colors-dark-sky text-left mq420:text-smi">
-                    연회비(정회원) 외 1건
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-row items-center justify-start md:flex-row sm:flex-row sm:flex-wrap sm:gap-[16px] sm:items-start sm:justify-start sm:flex-[unset] sm:self-stretch">
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    80,000 원
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    무통장 입금
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    2024-04-24
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    결제 대기중
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-light md:hover:bg-bg-light sm:flex-col">
-              <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-col">
-                <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px] max-w-[300px] md:gap-[8px] sm:flex-[unset] sm:self-stretch">
-                  <div className="w-10 relative leading-[20px] flex items-center justify-center shrink-0 md:flex sm:hidden mq420:hidden">
-                    5
-                  </div>
-                  <div className="flex-1 relative leading-[20px] text-button-colors-dark-sky text-left mq420:text-smi">
-                    가입비(정회원)
-                  </div>
-                </div>
-                <div className="flex-1 flex flex-row items-center justify-start md:flex-row sm:flex-row sm:flex-wrap sm:gap-[16px] sm:items-start sm:justify-start sm:flex-[unset] sm:self-stretch">
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    50,000 원
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    무통장 입금
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    2024-04-24
-                  </div>
-                  <div className="flex-1 relative leading-[20px] inline-block min-w-[90px] mq420:text-smi">
-                    결제 대기중
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="w-full bg-bg-colors-white flex flex-col items-start justify-start max-w-[1300px]">
+            <TableMypageFeeRow />
+            <TableMypageFeeDataRow
+              number="1"
+              paymentName="가입비(준회원) 외 1건"
+              price="80,000 원"
+              date="2024-04-24"
+            />
+            <TableMypageFeeDataRow
+              number="2"
+              paymentName="가입비(준회원)"
+              price="50,000 원"
+              date="2024-04-24"
+            />
+            <TableMypageFeeDataRow
+              number="3"
+              paymentName="연회비(준회원)"
+              price="80,000 원"
+              date="2024-04-24"
+            />
+            <TableMypageFeeDataRow
+              number="4"
+              paymentName="연회비(정회원) 외 1건"
+              price="80,000 원"
+              date="2024-04-24"
+            />
+            <TableMypageFeeDataRow
+              number="5"
+              paymentName="가입비(정회원)"
+              price="50,000 원"
+              date="2024-04-24"
+            />
           </div>
         </div>
       </div>

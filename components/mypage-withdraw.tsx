@@ -154,8 +154,8 @@ const MypageWithdraw: NextPage = () => {
             </div>
             <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-colors-white sm:flex-col">
               <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[90px] md:gap-[90px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                  <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center">
+                <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
+                  <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center">
                     <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
                       본인 확인용 비밀번호
                     </div>
@@ -173,7 +173,7 @@ const MypageWithdraw: NextPage = () => {
                         />
                         <input
                           className="[border:none] [outline:none] font-headings-headling-2 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
-                          placeholder="비밀번호를 입력해주세요."
+                          placeholder="비밀번호를 입력하세요."
                           type="password"
                         />
                       </div>

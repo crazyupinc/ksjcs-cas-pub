@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import TableMypageRow from "./table-mypage-row";
 
 const MypageFeeDetail: NextPage = () => {
   return (
@@ -10,74 +11,34 @@ const MypageFeeDetail: NextPage = () => {
               납부 신청 내역
             </b>
             <div className="w-full bg-bg-colors-white box-border flex flex-col items-start justify-start max-w-[1300px] text-sm text-text-title-small border-t-[1px] border-solid border-text-hint-text">
+              <TableMypageRow
+                title="납부자 성명"
+                method="크레이지업"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
+              <TableMypageRow
+                title="납부자 이메일"
+                method="crazyupinc@gmail.com"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
+              <TableMypageRow
+                title="납부자 휴대폰"
+                method="010-8707-1234"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
+              <TableMypageRow
+                title="납부명"
+                method="입회비(정회원) 외 1건"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
               <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
                 <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        납부자 성명
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        크레이지업
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        납부자 이메일
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        crazyupinc@gmail.com
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[90px] mq420:text-smi mq420:w-[60px]">
-                        납부자 휴대폰
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        010-8707-1234
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        납부명
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        입회비(정회원) 외 1건
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
+                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
+                    <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
                       <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
                         납부 항목
                       </div>
@@ -85,38 +46,28 @@ const MypageFeeDetail: NextPage = () => {
                     <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
                       <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
                         <p className="m-0">1) 입회비(기관회원) 1,000,000 원</p>
-                        <p className="m-0">2)정회원 50,000 원</p>
+                        <p className="m-0">2) 정회원 50,000 원</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <TableMypageRow
+                title="납부 금액"
+                method="70,000 원"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
               <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
                 <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        납부 금액
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        70,000 원
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[160px] md:gap-[120px] md:items-center md:justify-start sm:flex-col sm:gap-[8px] mq420:flex-1 mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
+                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[120px] md:items-center md:justify-start sm:flex-col sm:gap-[8px] mq420:flex-1 mq420:gap-[8px]">
+                    <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
                       <div className="relative leading-[20px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
                         납부 상태
                       </div>
                     </div>
                     <div className="flex-1 flex flex-row items-center justify-start gap-[20px] md:flex-col md:gap-[4px] md:items-start md:justify-center md:pl-0 md:box-border sm:items-center sm:justify-center sm:flex-[unset] sm:self-stretch">
-                      <div className="flex-1 h-[23px] flex flex-row items-center justify-start py-0 pr-0 pl-5 box-border gap-[16px] md:flex-[unset] md:self-stretch sm:w-auto sm:[align-self:unset] sm:flex-row sm:gap-[3px] sm:items-start sm:justify-start">
+                      <div className="flex-1 h-[23px] flex flex-row items-center justify-start gap-[16px] md:flex-[unset] md:self-stretch sm:w-auto sm:[align-self:unset] sm:flex-row sm:gap-[3px] sm:items-start sm:justify-start">
                         <div className="flex flex-row items-center justify-start text-button-colors-dark-sky sm:gap-[3px]">
                           <div className="relative leading-[20px] inline-block min-w-[70px] mq420:text-smi">
                             결제 대기중
@@ -154,22 +105,12 @@ const MypageFeeDetail: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        납부 금액
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        70,000 원
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <TableMypageRow
+                title="납부 금액"
+                method="70,000 원"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
             </div>
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-[24px] max-w-[900px]">
@@ -177,26 +118,16 @@ const MypageFeeDetail: NextPage = () => {
               결제 내역
             </b>
             <div className="w-full bg-bg-colors-white box-border flex flex-col items-start justify-start max-w-[1300px] text-sm text-text-title-small border-t-[1px] border-solid border-text-hint-text">
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        결제 수단
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <div className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        무통장 입금
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <TableMypageRow
+                title="결제 수단"
+                method="무통장 입금"
+                divColor="#1e293b"
+                divFontWeight="unset"
+              />
               <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-colors-white sm:flex-col">
                 <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
+                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
+                    <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
                       <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
                         입금자명
                       </div>
@@ -229,8 +160,8 @@ const MypageFeeDetail: NextPage = () => {
               </div>
               <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-colors-white sm:flex-col">
                 <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center">
+                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
+                    <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center">
                       <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
                         입금 예정일
                       </div>
@@ -260,22 +191,12 @@ const MypageFeeDetail: NextPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light sm:flex-col">
-                <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
-                  <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[140px] md:gap-[100px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
-                    <div className="flex flex-row items-center justify-start py-2 px-4 sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center mq420:pl-2 mq420:pr-2 mq420:box-border">
-                      <div className="relative leading-[20px] inline-block min-w-[100px] sm:text-center sm:w-[60px] mq420:text-smi mq420:w-[60px]">
-                        결제 수단
-                      </div>
-                    </div>
-                    <div className="flex-1 flex flex-row items-center justify-start py-2 px-0 text-button-colors-dark-sky sm:self-stretch sm:w-auto sm:items-center sm:justify-center sm:flex-[unset]">
-                      <b className="flex-1 relative leading-[20px] sm:text-center sm:w-32 mq420:text-smi mq420:w-[120px]">
-                        우리은행 1005-602-960308 사이버커뮤니케이션학회
-                      </b>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <TableMypageRow
+                title="결제 수단"
+                method="우리은행 1005-602-960308 사이버커뮤니케이션학회"
+                divColor="#0369a1"
+                divFontWeight="bold"
+              />
             </div>
           </div>
           <div className="flex flex-row items-center justify-center gap-[16px]">
