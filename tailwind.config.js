@@ -58,6 +58,9 @@ module.exports = {
         "semantic-success": "#22c55e",
         "colors-neutral-300": "#d4d4d4",
         "colors-slate-400": "#94a3b8",
+        "semantic-warning": "#fb923c",
+        "semantic-error": "#f43f5e",
+        "colors-rose-50": "#fff1f2",
       },
       spacing: {
         "spacing-2": "8px",
@@ -72,15 +75,17 @@ module.exports = {
         "headings-headling-2": "NanumGothic",
         "sub-sub-item": "'Nanum Gothic'",
         "open-sans": "'Open Sans'",
-        "text-small": "Inter",
+        "text-medium": "Inter",
         "noto-sans-kr": "'Noto Sans KR'",
       },
       borderRadius: {
         "10xs": "3px",
         xl: "20px",
         "81xl": "100px",
+        "9980xl": "9999px",
         "default-border-raius": "4px",
         "default-border-raius1": "4px",
+        "border-radius-full": "9999px",
       },
     },
     fontSize: {
@@ -95,9 +100,13 @@ module.exports = {
       "11xl": "1.875rem",
       "2xs": "0.688rem",
       "7xl": "1.625rem",
+      xl: "1.25rem",
       inherit: "inherit",
     },
     screens: {
+      lg: {
+        max: "1200px",
+      },
       md: {
         max: "960px",
       },
