@@ -79,7 +79,7 @@ module.exports = {
         "headings-headling-2": "NanumGothic",
         "sub-sub-item": "'Nanum Gothic'",
         "open-sans": "'Open Sans'",
-        "text-medium": "Inter",
+        "text-small": "Inter",
         "noto-sans-kr": "'Noto Sans KR'",
       },
       borderRadius: {
