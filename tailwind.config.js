@@ -65,6 +65,8 @@ module.exports = {
         "semantic-warning": "#fb923c",
         "colors-slate-50": "#f8fafc",
         "colors-slate-400": "#94a3b8",
+        "colors-blue-950": "#172554",
+        "bg-primary-light": "#0284c7",
       },
       spacing: {
         "spacing-2": "8px",
