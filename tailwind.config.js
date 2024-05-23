@@ -7,11 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bg-colors-white": "#fff",
+        "bg-white": "#fff",
         black: "#000",
-        "colors-slate-300": "#cbd5e1",
-        "text-colors-gray": "#404040",
-        "colors-slate-50": "#f8fafc",
         "text-colors-dark-gray": "#111827",
         "text-colors-amber": "#f59e0b",
         "button-colors-dark-sky": "#0369a1",
@@ -20,6 +17,8 @@ module.exports = {
         "colors-slate-500": "#64748b",
         "bg-colors-light-gray": "#fafafa",
         gray: "#676f82",
+        "colors-slate-300": "#cbd5e1",
+        "text-colors-gray": "#404040",
         "dark-gray": "#334158",
         "colors-green-300": "#86efac",
         "colors-indigo-300": "#a5b4fc",
@@ -65,6 +64,7 @@ module.exports = {
         "semantic-error": "#f43f5e",
         steelblue: "#004d77",
         "semantic-warning": "#fb923c",
+        "colors-slate-50": "#f8fafc",
       },
       spacing: {
         "spacing-2": "8px",
@@ -76,7 +76,7 @@ module.exports = {
         "spacing-1": "4px",
       },
       fontFamily: {
-        "headings-headling-2": "NanumGothic",
+        "headings-heading-3": "NanumGothic",
         "sub-sub-item": "'Nanum Gothic'",
         "open-sans": "'Open Sans'",
         "text-small": "Inter",
@@ -94,9 +94,9 @@ module.exports = {
     },
     fontSize: {
       "17xl": "2.25rem",
-      sm: "0.875rem",
-      base: "1rem",
       "29xl": "3rem",
+      base: "1rem",
+      sm: "0.875rem",
       lg: "1.125rem",
       xs: "0.75rem",
       smi: "0.813rem",
