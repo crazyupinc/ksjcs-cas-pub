@@ -67,6 +67,7 @@ module.exports = {
         "colors-slate-400": "#94a3b8",
         "colors-blue-950": "#172554",
         "bg-primary-light": "#0284c7",
+        plum: "#f8b4e4",
       },
       spacing: {
         "spacing-2": "8px",
