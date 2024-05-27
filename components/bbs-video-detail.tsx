@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Video from "./video";
 import Button from "./button";
 
 export type BbsVideoDetailType = {
@@ -45,12 +46,11 @@ const BbsVideoDetail: NextPage<BbsVideoDetailType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <video
-            className="w-full bg-plum flex flex-col items-start justify-start min-w-[320px] max-w-[1280px] max-h-[720px]"
-            controls
-          >
-            <source src />
-          </video>
+          <div className="self-stretch flex flex-col items-center justify-center gap-[16px]">
+            <Video />
+            <Video />
+            <Video />
+          </div>
         </div>
         <div className="w-full flex flex-col items-start justify-center py-5 px-0 box-border max-w-[1300px] text-center text-sm text-text-gray">
           <div className="self-stretch flex flex-row items-center justify-start border-t-[1px] border-solid border-colors-cyan-950">
