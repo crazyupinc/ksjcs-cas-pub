@@ -1,16 +1,38 @@
 import type { NextPage } from "next";
 import BbsContentInfo from "./bbs-content-info";
 
-const BbsGalleryDetail: NextPage = () => {
+export type BbsGalleryDetailType = {
+  className?: string;
+};
+
+const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
+  className = "",
+}) => {
   return (
-    <div className="w-[1920px] bg-bg-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-5xl text-text-title-small font-headings-headling-2">
+    <div
+      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-5xl text-text-title-small font-headings-heading-3 ${className}`}
+    >
       <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10">
-        <div className="w-full h-[722px] flex flex-col items-end justify-center gap-[8px] max-w-[1300px]">
+        <div className="w-full flex flex-col items-center justify-start gap-[8px] max-w-[1300px]">
           <div className="self-stretch overflow-hidden flex flex-col items-end justify-center py-1.5 px-0 gap-[8px] border-b-[1px] border-solid border-bg-light-border">
             <div className="self-stretch relative leading-[32px] overflow-hidden text-ellipsis whitespace-nowrap">{`2024 봄철 정기학술대회 특별기획세션 `}</div>
             <BbsContentInfo />
           </div>
-          <div className="self-stretch bg-bg-light-border h-[634px]" />
+          <img
+            className="w-full h-auto max-w-[600px] overflow-hidden shrink-0 [object-fit:contains]"
+            alt=""
+            src="/editorerea@2x.png"
+          />
+          <img
+            className="w-full h-auto max-w-[600px] overflow-hidden shrink-0 [object-fit:contains]"
+            alt=""
+            src="/editorerea1@2x.png"
+          />
+          <img
+            className="w-full h-auto max-w-[600px] overflow-hidden shrink-0 [object-fit:contains]"
+            alt=""
+            src="/editorerea@2x.png"
+          />
         </div>
         <div className="w-full flex flex-col items-start justify-center py-5 px-0 box-border max-w-[1300px] text-center text-sm text-text-gray">
           <div className="self-stretch flex flex-row items-center justify-start border-t-[1px] border-solid border-colors-cyan-950">
@@ -63,7 +85,7 @@ const BbsGalleryDetail: NextPage = () => {
           </div>
         </div>
         <button className="cursor-pointer [border:none] py-2 px-7 bg-text-gray rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue sm:py-2.5 sm:px-4 sm:box-border mq420:py-2.5 mq420:px-4 mq420:box-border">
-          <div className="relative text-sm leading-[20px] font-headings-headling-2 text-bg-colors-white text-center">
+          <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
             목록
           </div>
         </button>
