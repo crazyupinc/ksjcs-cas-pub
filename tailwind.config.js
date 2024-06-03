@@ -77,7 +77,7 @@ module.exports = {
         "spacing-1": "4px",
       },
       fontFamily: {
-        "body-text-small-text-bold": "NanumGothic",
+        "body-text-smaller-text": "NanumGothic",
         "sub-sub-item": "'Nanum Gothic'",
         "open-sans": "'Open Sans'",
         "text-small": "Inter",
