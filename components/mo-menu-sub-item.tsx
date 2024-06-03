@@ -25,7 +25,7 @@ const MoMenuSubItem: NextPage<MoMenuSubItemType> = ({
       className={`cursor-pointer [border:none] py-0 pr-0 pl-1 bg-[transparent] w-[170px] box-border flex flex-col items-start justify-start border-l-[1px] border-solid border-bg-light-border ${className}`}
       style={moMenuSubItemStyle}
     >
-      <div className="self-stretch relative text-xs leading-[16px] font-headings-heading-3 text-bg-white text-left flex items-center h-10 shrink-0">
+      <div className="self-stretch relative text-xs leading-[16px] font-body-text-smaller-text text-bg-white text-left flex items-center h-10 shrink-0">
         {subMenuName}
       </div>
     </button>

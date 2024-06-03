@@ -11,7 +11,7 @@ const DropdownClose: NextPage<DropdownCloseType> = ({
 }) => {
   return (
     <div
-      className={`w-80 flex flex-col items-start justify-start text-left text-base text-text-text-small-light font-headings-heading-3 ${className}`}
+      className={`w-80 flex flex-col items-start justify-start text-left text-base text-text-text-small-light font-body-text-smaller-text ${className}`}
     >
       <div className="self-stretch bg-bg-white box-border h-[50.7px] flex flex-row items-center justify-start p-3.5 gap-[14px] border-[0.7px] border-solid border-colors-slate-300">
         <div className="flex-1 relative leading-[24px] overflow-hidden text-ellipsis whitespace-nowrap">

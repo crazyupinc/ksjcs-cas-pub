@@ -1,8 +1,16 @@
 import type { NextPage } from "next";
 
-const TableBbsHeaderRow: NextPage = () => {
+export type TableBbsHeaderRowType = {
+  className?: string;
+};
+
+const TableBbsHeaderRow: NextPage<TableBbsHeaderRowType> = ({
+  className = "",
+}) => {
   return (
-    <div className="max-w-full overflow-hidden flex flex-col items-start justify-center min-w-[300px] text-center text-sm text-text-title-small font-headings-headling-2 self-stretch">
+    <div
+      className={`max-w-full overflow-hidden flex flex-col items-start justify-center min-w-[300px] text-center text-sm text-text-title-small font-body-text-smaller-text self-stretch ${className}`}
+    >
       <div className="w-[1301.5px] relative box-border h-[1.5px] hidden border-t-[1.5px] border-solid border-colors-cyan-950 sm:flex mq420:flex" />
       <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 gap-[20px] border-t-[1.5px] border-solid border-colors-cyan-950 border-b-[1px] sm:hidden">
         <div className="flex-1 h-6 flex flex-row items-center justify-start gap-[20px]">

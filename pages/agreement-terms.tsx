@@ -1,19 +1,19 @@
 import type { NextPage } from "next";
 
-const AgreementTerms: NextPage = () => {
+const AgreementTerms: NextPageAgreementTermsType = () => {
   return (
-    <div className="w-full relative bg-button-colors-white overflow-hidden flex flex-row items-start justify-center p-[1.25rem] box-border text-left text-[1rem] text-text-colors-dark-gray font-navbar-sub-item md:flex-col">
+    <div className="w-full relative bg-bg-white overflow-hidden flex flex-row items-start justify-center p-[1.25rem] box-border text-left text-[1rem] text-text-colors-dark-gray font-sub-sub-item md:flex-col">
       <div className="flex-1 flex flex-col items-center justify-start md:flex-[unset] md:self-stretch">
-        <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start py-[5rem] px-[0rem] gap-[3.75rem]">
+        <div className="self-stretch bg-bg-white flex flex-col items-center justify-start py-[5rem] px-[0rem] gap-[3.75rem]">
           <div className="w-full h-[18.375rem] flex flex-col items-center justify-start gap-[1rem] max-w-[81.25rem]">
             <div className="self-stretch flex flex-col items-start justify-start p-[0.625rem]">
               <div className="self-stretch relative font-extrabold">
                 이용약관 동의 (필수)
               </div>
             </div>
-            <div className="self-stretch flex-1 bg-bg-colors-light-gray overflow-auto flex flex-col items-center justify-start p-[1rem] gap-[0.625rem] text-[0.875rem] font-body-text-caption-bold border-[0.2px] border-solid border-gray">
-              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] border-b-[0.2px] border-solid border-gray">
-                <div className="self-stretch relative uppercase font-extrabold">
+            <div className="self-stretch flex-1 bg-bg-colors-light-gray overflow-auto flex flex-col items-center justify-start p-[1rem] gap-[0.625rem] text-[0.875rem] border-[0.2px] border-solid border-gray">
+              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] font-body-text-smaller-text border-b-[0.2px] border-solid border-gray">
+                <div className="self-stretch relative leading-[1.5rem] uppercase font-extrabold">
                   제1장
                 </div>
               </div>
@@ -172,8 +172,8 @@ const AgreementTerms: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] border-b-[0.2px] border-solid border-gray">
-                <div className="self-stretch relative uppercase font-extrabold">
+              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] font-body-text-smaller-text border-b-[0.2px] border-solid border-gray">
+                <div className="self-stretch relative leading-[1.5rem] uppercase font-extrabold">
                   제2장 개인정보의 수집 
                 </div>
               </div>
@@ -345,8 +345,8 @@ const AgreementTerms: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] border-b-[0.2px] border-solid border-gray">
-                <div className="self-stretch relative uppercase font-extrabold">
+              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] font-body-text-smaller-text border-b-[0.2px] border-solid border-gray">
+                <div className="self-stretch relative leading-[1.5rem] uppercase font-extrabold">
                   제3장 개인정보의 이용 및 제공
                 </div>
               </div>
@@ -707,8 +707,8 @@ const AgreementTerms: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] border-b-[0.2px] border-solid border-gray">
-                <div className="self-stretch relative uppercase font-extrabold">
+              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] font-body-text-smaller-text border-b-[0.2px] border-solid border-gray">
+                <div className="self-stretch relative leading-[1.5rem] uppercase font-extrabold">
                   제4장 이용자의 권리
                 </div>
               </div>
@@ -773,8 +773,8 @@ const AgreementTerms: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] border-b-[0.2px] border-solid border-gray">
-                <div className="self-stretch relative uppercase font-extrabold">
+              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] font-body-text-smaller-text border-b-[0.2px] border-solid border-gray">
+                <div className="self-stretch relative leading-[1.5rem] uppercase font-extrabold">
                   제5장 아동에 관한 특별 조치
                 </div>
               </div>
@@ -919,8 +919,8 @@ const AgreementTerms: NextPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] border-b-[0.2px] border-solid border-gray">
-                <div className="self-stretch relative uppercase font-extrabold">
+              <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1.125rem] font-body-text-smaller-text border-b-[0.2px] border-solid border-gray">
+                <div className="self-stretch relative leading-[1.5rem] uppercase font-extrabold">
                   제6장 보 칙
                 </div>
               </div>
@@ -1027,7 +1027,7 @@ const AgreementTerms: NextPage = () => {
                   <p className="m-0">
                     누구든지 정보통신망에 의하여 처리·보관 또는 전송되는 타인의
                     개인정보를 훼손하거나 공개를 원하지 않는 타인의 개인정보를
-                    침해·도용 또는 누설하여서는 아니된다.  
+                    침해·도용 또는 누설하여서는 아니된다. 
                   </p>
                   <p className="m-0 font-extrabold">
                     제32조(개인정보의 국외 이전에 대한 제한)
@@ -1051,7 +1051,7 @@ const AgreementTerms: NextPage = () => {
                 개인정보 수집/이용에 대한 동의 (필수)
               </div>
             </div>
-            <div className="self-stretch flex-1 bg-bg-colors-light-gray overflow-auto flex flex-col items-center justify-start p-[1rem] gap-[0.625rem] text-[0.875rem] font-body-text-caption-bold border-[0.2px] border-solid border-gray">
+            <div className="self-stretch flex-1 bg-bg-colors-light-gray overflow-auto flex flex-col items-center justify-start p-[1rem] gap-[0.625rem] text-[0.875rem] border-[0.2px] border-solid border-gray">
               <div className="self-stretch flex flex-col items-start justify-center py-[0.375rem] px-[0rem] text-[1rem] border-b-[0.2px] border-solid border-gray">
                 <div className="self-stretch relative leading-[1.5rem]">
                   [사이버커뮤니케이션 학회]("[http://www.cybercom.or.kr/]"이하
@@ -1327,12 +1327,12 @@ const AgreementTerms: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-start gap-[0.5rem] text-colors-slate-950 font-body-text-caption-bold">
-            <div className="w-[1rem] relative bg-button-colors-white box-border h-[1rem] border-[1px] border-solid border-colors-slate-500" />
+          <div className="flex flex-row items-center justify-start gap-[0.5rem] text-colors-slate-950">
+            <div className="w-[1rem] relative bg-bg-white box-border h-[1rem] border-[1px] border-solid border-colors-slate-500" />
             <div className="relative leading-[1.5rem]">모든 약관에 동의</div>
           </div>
-          <button className="cursor-pointer [border:none] py-[0.875rem] px-[1.75rem] bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-[1rem] font-navbar-sub-item text-button-colors-white text-center">
+          <button className="cursor-pointer [border:none] py-[0.875rem] px-[1.75rem] bg-bg-primary rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
+            <div className="relative text-[1rem] leading-[1.5rem] font-body-text-smaller-text text-bg-white text-center">
               회원가입 계속 진행
             </div>
           </button>

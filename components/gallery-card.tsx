@@ -1,14 +1,22 @@
 import type { NextPage } from "next";
 
 export type GalleryCardType = {
+  className?: string;
   image?: string;
   datetime?: string;
   title?: string;
 };
 
-const GalleryCard: NextPage<GalleryCardType> = ({ image, datetime, title }) => {
+const GalleryCard: NextPage<GalleryCardType> = ({
+  className = "",
+  image,
+  datetime,
+  title,
+}) => {
   return (
-    <div className="rounded bg-bg-light box-border overflow-hidden flex flex-col items-center justify-start text-left text-sm text-text-text-small-light font-headings-headling-2 flex-1 border-[1px] border-solid border-bg-light-border hover:animate-[0.2s_ease-in_0s_1_normal_forwards_custom-animation] hover:opacity-[1]">
+    <div
+      className={`rounded bg-bg-light box-border overflow-hidden flex flex-col items-center justify-start text-left text-sm text-text-text-small-light font-body-text-smaller-text flex-1 border-[1px] border-solid border-bg-light-border hover:animate-[0.2s_ease-in_0s_1_normal_forwards_custom-animation] hover:opacity-[1] ${className}`}
+    >
       <img
         className="self-stretch relative rounded-10xs max-w-full overflow-hidden h-[300px] shrink-0 object-cover sm:max-w-full mq420:max-w-full"
         alt=""

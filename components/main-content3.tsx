@@ -7,7 +7,7 @@ export type MainContentType = {
 const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-full bg-bg-white max-w-full flex flex-col items-center justify-start py-[110px] px-5 box-border gap-[36px] text-center text-base text-text-hint-text font-body-text-small-text-bold sm:pl-0 sm:pr-0 sm:box-border mq420:pl-0 mq420:pr-0 mq420:box-border ${className}`}
+      className={`w-full bg-bg-white max-w-full flex flex-col items-center justify-start py-[110px] px-5 box-border gap-[36px] text-center text-base text-text-hint-text font-body-text-smaller-text sm:pl-0 sm:pr-0 sm:box-border mq420:pl-0 mq420:pr-0 mq420:box-border ${className}`}
     >
       <div className="w-full bg-bg-white overflow-hidden flex flex-col items-center justify-start gap-[46px] max-w-[1300px]">
         <div className="self-stretch flex flex-col items-center justify-start gap-[18px]">
@@ -106,7 +106,7 @@ const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
         </div>
       </div>
       <button className="cursor-pointer py-1.5 px-4 bg-[transparent] rounded-xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-bg-primary hover:bg-gainsboro-100">
-        <div className="relative text-xs leading-[16px] font-body-text-small-text-bold text-bg-primary text-center mq420:text-2xs">
+        <div className="relative text-xs leading-[16px] font-body-text-smaller-text text-bg-primary text-center mq420:text-2xs">
           더보기
         </div>
       </button>

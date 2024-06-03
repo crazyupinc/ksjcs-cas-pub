@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
 
 export type PaymentItemsType = {
+  className?: string;
   membershipFee?: string;
   showPrice?: boolean;
   price?: string;
@@ -12,6 +13,7 @@ export type PaymentItemsType = {
 };
 
 const PaymentItems: NextPage<PaymentItemsType> = ({
+  className = "",
   membershipFee,
   showPrice,
   priceAlignSelf,
@@ -26,7 +28,9 @@ const PaymentItems: NextPage<PaymentItemsType> = ({
   }, [priceAlignSelf, priceWidth]);
 
   return (
-    <div className="bg-colors-blue-50 box-border max-w-full overflow-hidden flex flex-col items-start justify-center min-w-[200px] text-left text-sm text-text-title-small font-headings-headling-2 self-stretch border-[1px] border-solid border-bg-light-border sm:flex-col sm:items-start sm:justify-center">
+    <div
+      className={`bg-colors-blue-50 box-border max-w-full overflow-hidden flex flex-col items-start justify-center min-w-[200px] text-left text-sm text-text-title-small font-body-text-smaller-text self-stretch border-[1px] border-solid border-bg-light-border sm:flex-col sm:items-start sm:justify-center ${className}`}
+    >
       <div className="self-stretch flex flex-row items-center justify-start py-4 px-5 sm:flex sm:flex-row mq420:pl-0 mq420:pr-0 mq420:box-border">
         <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[20px] md:gap-[8px] mq420:flex-col">
           <div className="flex flex-col items-start justify-center gap-[3px] mq420:self-stretch mq420:w-auto mq420:pl-4 mq420:box-border">
@@ -49,9 +53,9 @@ const PaymentItems: NextPage<PaymentItemsType> = ({
                   <span>금액</span>
                   <span className="text-text-text-small-light">{` `}</span>
                 </span>
-                <b className="text-button-colors-dark-sky">{price}</b>
+                <b className="text-bg-primary">{price}</b>
               </div>
-              <div className="w-4 relative rounded-border-radius-full bg-bg-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+              <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
             </div>
           </div>
         </div>
