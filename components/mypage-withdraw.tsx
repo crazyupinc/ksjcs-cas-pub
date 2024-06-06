@@ -7,7 +7,7 @@ export type MypageWithdrawType = {
 const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-semantic-error font-body-text-smaller-text ${className}`}
+      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-semantic-error font-headings-heading-3 ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[40px] md:pb-5 md:box-border mq420:pb-5 mq420:box-border">
@@ -36,7 +36,7 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
             </div>
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-[16px] max-w-[900px] text-text-text-small-light">
-            <div className="self-stretch flex flex-row items-center justify-center text-xl text-text-title-medium border-b-[1px] border-solid border-bg-light-border">
+            <div className="self-stretch flex flex-row items-center justify-center text-xl text-text-colors-gray border-b-[1px] border-solid border-bg-light-border">
               <b className="flex-1 relative leading-[28px] inline-block h-10 sm:text-xl mq420:text-lg">
                 탈퇴 안내
               </b>
@@ -92,7 +92,7 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
             </div>
           </div>
           <div className="w-full flex flex-col items-center justify-center gap-[16px] max-w-[900px] text-text-title-small">
-            <div className="self-stretch flex flex-row items-center justify-center text-xl text-text-title-medium border-b-[1px] border-solid border-bg-light-border">
+            <div className="self-stretch flex flex-row items-center justify-center text-xl text-text-colors-gray border-b-[1px] border-solid border-bg-light-border">
               <b className="flex-1 relative leading-[28px] inline-block h-10 sm:text-xl mq420:text-lg">
                 탈퇴 신청
               </b>
@@ -178,7 +178,7 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
                           src="/icon5.svg"
                         />
                         <input
-                          className="[border:none] [outline:none] font-body-text-smaller-text text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                          className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                           placeholder="비밀번호를 입력하세요."
                           type="password"
                         />
@@ -192,8 +192,8 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <button className="cursor-pointer [border:none] py-2 px-7 bg-bg-primary rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-sm leading-[20px] font-body-text-smaller-text text-bg-white text-center">
+          <button className="cursor-pointer [border:none] py-2 px-7 bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
+            <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
               탈퇴
             </div>
           </button>

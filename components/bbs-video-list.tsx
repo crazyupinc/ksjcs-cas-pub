@@ -21,13 +21,13 @@ const BbsVideoList: NextPage<BbsVideoListType> = ({ className = "" }) => {
             showThisIsA={false}
           />
           <div className="flex flex-row items-center justify-end">
-            <button className="cursor-pointer [border:none] py-2 px-5 bg-bg-primary overflow-hidden flex flex-row items-center justify-center gap-[6px] hover:bg-royalblue">
+            <button className="cursor-pointer [border:none] py-2 px-5 bg-button-colors-dark-sky overflow-hidden flex flex-row items-center justify-center gap-[6px] hover:bg-royalblue">
               <img
                 className="w-4 relative h-4"
                 alt=""
                 src="/icongridwhite.svg"
               />
-              <div className="relative text-sm leading-[20px] font-body-text-smaller-text text-bg-white text-center">
+              <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
                 카드
               </div>
             </button>
@@ -37,7 +37,7 @@ const BbsVideoList: NextPage<BbsVideoListType> = ({ className = "" }) => {
                 alt=""
                 src="/iconlistbold.svg"
               />
-              <div className="relative text-sm leading-[20px] font-body-text-smaller-text text-bg-primary text-center">
+              <div className="relative text-sm leading-[20px] font-headings-heading-3 text-button-colors-dark-sky text-center">
                 리스트
               </div>
             </button>

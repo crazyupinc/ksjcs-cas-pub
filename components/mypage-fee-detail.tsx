@@ -8,7 +8,7 @@ export type MypageFeeDetailType = {
 const MypageFeeDetail: NextPage<MypageFeeDetailType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-center justify-start p-5 box-border text-left text-xl text-text-title-medium font-body-text-smaller-text ${className}`}
+      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-center justify-start p-5 box-border text-left text-xl text-text-colors-gray font-headings-heading-3 ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[36px] md:pb-10 md:box-border sm:pb-5 sm:box-border mq420:pb-5 mq420:box-border">
@@ -74,7 +74,7 @@ const MypageFeeDetail: NextPage<MypageFeeDetailType> = ({ className = "" }) => {
                     </div>
                     <div className="flex-1 flex flex-row items-center justify-start gap-[20px] md:flex-col md:gap-[4px] md:items-start md:justify-center md:pl-0 md:box-border sm:items-center sm:justify-center sm:flex-[unset] sm:self-stretch">
                       <div className="flex-1 h-[23px] flex flex-row items-center justify-start gap-[16px] md:flex-[unset] md:self-stretch sm:w-auto sm:[align-self:unset] sm:flex-row sm:gap-[3px] sm:items-start sm:justify-start">
-                        <div className="flex flex-row items-center justify-start text-bg-primary sm:gap-[3px]">
+                        <div className="flex flex-row items-center justify-start text-button-colors-dark-sky sm:gap-[3px]">
                           <div className="relative leading-[20px] inline-block min-w-[70px] mq420:text-smi">
                             결제 대기중
                           </div>
@@ -102,7 +102,7 @@ const MypageFeeDetail: NextPage<MypageFeeDetailType> = ({ className = "" }) => {
                       </div>
                       <div className="flex flex-col items-end justify-start py-0 pr-0 pl-5 sm:items-center sm:justify-start sm:pl-0 sm:box-border mq420:pl-0 mq420:box-border">
                         <button className="cursor-pointer py-1.5 px-4 bg-[transparent] rounded-md overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-text-hint-text hover:bg-gainsboro-100">
-                          <div className="flex-1 relative text-xs leading-[16px] font-body-text-smaller-text text-text-title-small text-center">
+                          <div className="flex-1 relative text-xs leading-[16px] font-headings-heading-3 text-text-title-small text-center">
                             납부 취소 요청
                           </div>
                         </button>
@@ -150,12 +150,12 @@ const MypageFeeDetail: NextPage<MypageFeeDetailType> = ({ className = "" }) => {
                             src="/icon5.svg"
                           />
                           <input
-                            className="[border:none] [outline:none] font-body-text-smaller-text text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                            className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                             placeholder="입금자명을 입력해주세요."
                             type="password"
                           />
                         </div>
-                        <div className="self-stretch relative text-xs leading-[16px] font-body-text-smaller-text text-semantic-warning mq420:text-2xs">
+                        <div className="self-stretch relative text-xs leading-[16px] font-headings-heading-3 text-semantic-warning mq420:text-2xs">
                           은행 송금시 "받는 분 통장 표시"란에 입금자명과
                           동일하게 입력해주세요.
                         </div>
@@ -184,12 +184,12 @@ const MypageFeeDetail: NextPage<MypageFeeDetailType> = ({ className = "" }) => {
                             src="/icon5.svg"
                           />
                           <input
-                            className="[border:none] [outline:none] font-body-text-smaller-text text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                            className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                             placeholder="2024-05-17"
                             type="password"
                           />
                         </div>
-                        <div className="self-stretch relative text-xs leading-[16px] font-body-text-smaller-text text-semantic-warning mq420:text-2xs">
+                        <div className="self-stretch relative text-xs leading-[16px] font-headings-heading-3 text-semantic-warning mq420:text-2xs">
                           송금일자를 정확히 입력해주시기 바랍니다.
                         </div>
                       </div>
@@ -206,13 +206,13 @@ const MypageFeeDetail: NextPage<MypageFeeDetailType> = ({ className = "" }) => {
             </div>
           </div>
           <div className="flex flex-row items-center justify-center gap-[16px]">
-            <button className="cursor-pointer [border:none] py-3.5 px-7 bg-bg-primary rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue sm:py-2.5 sm:px-4 sm:box-border">
-              <div className="relative text-base leading-[24px] font-body-text-smaller-text text-bg-white text-center sm:text-smi mq420:text-smi">
+            <button className="cursor-pointer [border:none] py-3.5 px-7 bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue sm:py-2.5 sm:px-4 sm:box-border">
+              <div className="relative text-base leading-[24px] font-headings-heading-3 text-bg-white text-center sm:text-smi mq420:text-smi">
                 입금 확인 요청
               </div>
             </button>
             <button className="cursor-pointer py-3.5 px-7 bg-[transparent] w-[156px] rounded-md box-border overflow-hidden shrink-0 flex flex-row items-center justify-center border-[1px] border-solid border-text-hint-text hover:bg-gainsboro-100 sm:w-[120px] sm:py-2.5 sm:px-4 sm:box-border">
-              <div className="relative text-base leading-[24px] font-body-text-smaller-text text-text-title-small text-center sm:text-smi">
+              <div className="relative text-base leading-[24px] font-headings-heading-3 text-text-title-small text-center sm:text-smi">
                 목록으로
               </div>
             </button>

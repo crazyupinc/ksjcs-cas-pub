@@ -9,7 +9,7 @@ export type FeeOrderType = {
 const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-text-text-small-light font-body-text-smaller-text ${className}`}
+      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-text-text-small-light font-headings-heading-3 ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[40px] md:pb-5 md:box-border mq420:pb-5 mq420:box-border">
@@ -17,10 +17,10 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
             <div className="self-stretch flex flex-col items-center justify-center py-[3px] px-0 gap-[6px] border-b-[1px] border-solid border-bg-light-border">
               <div className="self-stretch relative leading-[20px] text-center sm:text-sm mq420:text-smi">
                 <span>{`납부 내역 확인은 `}</span>
-                <span className="text-bg-primary">{`마이페이지 > 납부내역`}</span>
+                <span className="text-button-colors-dark-sky">{`마이페이지 > 납부내역`}</span>
                 <span>{` 에서 확인 할 수 있습니다. `}</span>
               </div>
-              <b className="self-stretch relative text-xl leading-[28px] flex text-text-title-medium items-center h-[50px] shrink-0 sm:text-xl mq420:text-lg">
+              <b className="self-stretch relative text-xl leading-[28px] flex text-text-colors-gray items-center h-[50px] shrink-0 sm:text-xl mq420:text-lg">
                 납부 항목
               </b>
               <div className="self-stretch relative text-xs leading-[16px] text-semantic-warning sm:text-xs mq420:text-xs">
@@ -77,9 +77,9 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
               priceWidth="104px"
               price="1,000,000 원"
             />
-            <div className="self-stretch relative text-right flex items-center h-16 shrink-0 text-11xl text-bg-primary sm:text-lg mq420:text-lg">
+            <div className="self-stretch relative text-right flex items-center h-16 shrink-0 text-11xl text-button-colors-dark-sky sm:text-lg mq420:text-lg">
               <span>
-                <span className="text-base leading-[24px] font-body-text-smaller-text text-text-title-medium">
+                <span className="text-base leading-[24px] font-headings-heading-3 text-text-colors-gray">
                   결제금액 총
                 </span>
                 <b>
@@ -88,14 +88,14 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
                 <b>
                   <span className="leading-[36px]">0</span>
                 </b>
-                <span className="text-base leading-[24px] text-text-title-medium">
+                <span className="text-base leading-[24px] text-text-colors-gray">
                   {" "}
                   원
                 </span>
               </span>
             </div>
           </div>
-          <div className="w-full flex flex-col items-center justify-center max-w-[900px] text-xl text-text-title-medium">
+          <div className="w-full flex flex-col items-center justify-center max-w-[900px] text-xl text-text-colors-gray">
             <div className="w-full flex flex-col items-center justify-center gap-[24px] max-w-[900px]">
               <b className="self-stretch relative leading-[28px] sm:text-lg mq420:text-lg">
                 납부자 정보
@@ -139,7 +139,7 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
                               src="/icon5.svg"
                             />
                             <input
-                              className="[border:none] [outline:none] font-body-text-smaller-text text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                              className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                               placeholder="휴대폰 번호를 입력해주세요."
                               type="password"
                             />
@@ -175,8 +175,8 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <button className="cursor-pointer [border:none] py-2 px-7 bg-bg-primary rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-sm leading-[20px] font-body-text-smaller-text text-bg-white text-center">
+          <button className="cursor-pointer [border:none] py-2 px-7 bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
+            <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
               납부 신청
             </div>
           </button>

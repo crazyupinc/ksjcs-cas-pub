@@ -10,7 +10,7 @@ const MypageUpdatePassword: NextPage<MypageUpdatePasswordType> = ({
 }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-text-title-small font-body-text-smaller-text ${className}`}
+      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-text-title-small font-headings-heading-3 ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[40px] md:pb-5 md:box-border mq420:pb-5 mq420:box-border">
@@ -52,12 +52,12 @@ const MypageUpdatePassword: NextPage<MypageUpdatePasswordType> = ({
                           src="/icon5.svg"
                         />
                         <input
-                          className="[border:none] [outline:none] font-body-text-smaller-text text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                          className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                           placeholder="비밀번호는 아래 요건을 반드시 충족해야 합니다."
                           type="password"
                         />
                       </div>
-                      <div className="self-stretch relative text-xs leading-[16px] font-body-text-smaller-text text-semantic-warning mq420:text-2xs">{`* 6~20자의 영문 소/대문자(a-zA-Z) 또는 숫자(0-9) 또는 특수문자(~!@#$%^&*_-+=\`:;,.?/)`}</div>
+                      <div className="self-stretch relative text-xs leading-[16px] font-headings-heading-3 text-semantic-warning mq420:text-2xs">{`* 6~20자의 영문 소/대문자(a-zA-Z) 또는 숫자(0-9) 또는 특수문자(~!@#$%^&*_-+=\`:;,.?/)`}</div>
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const MypageUpdatePassword: NextPage<MypageUpdatePasswordType> = ({
                           src="/icon5.svg"
                         />
                         <input
-                          className="[border:none] [outline:none] font-body-text-smaller-text text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                          className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                           placeholder="입력한 새 비밀번호와 같게 다시 한 번 입력해주세요."
                           type="password"
                         />
@@ -98,8 +98,8 @@ const MypageUpdatePassword: NextPage<MypageUpdatePasswordType> = ({
               </div>
             </div>
           </div>
-          <button className="cursor-pointer [border:none] py-2 px-7 bg-bg-primary rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-sm leading-[20px] font-body-text-smaller-text text-bg-white text-center">
+          <button className="cursor-pointer [border:none] py-2 px-7 bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
+            <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
               변경
             </div>
           </button>

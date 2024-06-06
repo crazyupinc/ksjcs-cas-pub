@@ -37,7 +37,7 @@ const SubBanner: NextPage<SubBannerType> = ({ className = "" }) => {
   }, []);
   return (
     <div
-      className={`w-[1440px] max-w-full h-[220px] flex flex-col items-center justify-end bg-[url('/subbanner@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-normal text-center text-29xl text-bg-white font-body-text-smaller-text ${className}`}
+      className={`w-[1440px] max-w-full h-[220px] flex flex-col items-center justify-end bg-[url('/subbanner@3x.png')] bg-cover bg-no-repeat bg-[top] mix-blend-normal text-center text-29xl text-bg-white font-headings-heading-3 ${className}`}
     >
       <div className="self-stretch flex-1 flex flex-col items-center justify-center py-0 px-5">
         <div className="self-stretch flex flex-col items-center justify-center gap-[4px]">
@@ -55,7 +55,7 @@ const SubBanner: NextPage<SubBannerType> = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-row flex-wrap items-start justify-center py-0 px-4 text-left text-base text-text-title-medium">
+      <div className="self-stretch flex flex-row flex-wrap items-start justify-center py-0 px-4 text-left text-base text-text-colors-gray">
         <div className="w-[640px] flex flex-row flex-wrap items-start justify-center max-w-[640px]">
           <div className="flex-1 h-[50px] flex flex-col items-center justify-end min-w-[297px] max-w-[400px] sm:hidden">
             <div className="self-stretch flex-1 flex flex-col items-start justify-start">

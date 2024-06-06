@@ -17,7 +17,7 @@ const SearchField: NextPage<SearchFieldType> = ({
 }) => {
   return (
     <div
-      className={`w-80 flex flex-col items-start justify-start max-w-[320px] text-left text-base text-dark-gray font-body-text-smaller-text mq420:max-w-[320%] ${className}`}
+      className={`w-80 flex flex-col items-start justify-start max-w-[320px] text-left text-base text-dark-gray font-headings-heading-3 mq420:max-w-[320%] ${className}`}
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[6px]">
         <div className="w-[340px] relative leading-[24px] hidden">Email</div>
@@ -28,7 +28,7 @@ const SearchField: NextPage<SearchFieldType> = ({
             src={iconSearch}
           />
           <input
-            className="[border:none] [outline:none] font-body-text-smaller-text text-base bg-[transparent] flex-1 relative leading-[24px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap sm:text-smi"
+            className="[border:none] [outline:none] font-headings-heading-3 text-base bg-[transparent] flex-1 relative leading-[24px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap sm:text-smi"
             placeholder="검색어를 입력해주세요."
             type="text"
           />

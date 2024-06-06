@@ -10,7 +10,7 @@ const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
 }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-5xl text-text-title-small font-body-text-smaller-text ${className}`}
+      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-5xl text-text-title-small font-headings-heading-3 ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10">
         <div className="w-full flex flex-col items-center justify-start gap-[8px] max-w-[1300px]">
@@ -48,7 +48,7 @@ const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
                 <div className="self-stretch w-10 relative leading-[20px] flex items-center justify-center shrink-0 min-w-[40px] sm:hidden">
                   819
                 </div>
-                <div className="flex-1 relative leading-[24px] text-bg-primary text-left overflow-hidden text-ellipsis whitespace-nowrap">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(`}</div>
+                <div className="flex-1 relative leading-[24px] text-button-colors-dark-sky text-left overflow-hidden text-ellipsis whitespace-nowrap">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(`}</div>
               </div>
               <div className="flex flex-row items-center justify-start py-1 px-0 text-text-text-small sm:hidden sm:gap-[20px] sm:pt-0 sm:pb-0 sm:box-border">
                 <div className="w-[120px] flex flex-row items-center justify-center sm:w-auto sm:[align-self:unset]">
@@ -72,7 +72,7 @@ const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
                 <div className="self-stretch w-10 relative leading-[20px] flex items-center justify-center shrink-0 min-w-[40px] sm:hidden">
                   817
                 </div>
-                <div className="flex-1 relative leading-[24px] text-bg-primary text-left overflow-hidden text-ellipsis whitespace-nowrap">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(`}</div>
+                <div className="flex-1 relative leading-[24px] text-button-colors-dark-sky text-left overflow-hidden text-ellipsis whitespace-nowrap">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(`}</div>
               </div>
               <div className="flex flex-row items-center justify-start py-1 px-0 text-text-text-small sm:hidden sm:gap-[20px] sm:pt-0 sm:pb-0 sm:box-border">
                 <div className="w-[120px] flex flex-row items-center justify-center sm:w-auto sm:[align-self:unset]">
@@ -85,7 +85,7 @@ const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
           </div>
         </div>
         <button className="cursor-pointer [border:none] py-2 px-7 bg-text-gray rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue sm:py-2.5 sm:px-4 sm:box-border mq420:py-2.5 mq420:px-4 mq420:box-border">
-          <div className="relative text-sm leading-[20px] font-body-text-smaller-text text-bg-white text-center">
+          <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
             목록
           </div>
         </button>

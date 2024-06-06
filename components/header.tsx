@@ -20,7 +20,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
                 alt="icon-login"
                 src="/iconlogin.svg"
               />
-              <div className="w-[44.6px] relative text-sm leading-[20px] font-body-text-smaller-text text-text-text-small-light text-left flex items-center h-[22.4px] shrink-0 hover:text-bg-primary">
+              <div className="w-[44.6px] relative text-sm leading-[20px] font-headings-heading-3 text-text-text-small-light text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 로그인
               </div>
@@ -31,7 +31,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
                 alt="icon-register"
                 src="/iconregister.svg"
               />
-              <div className="w-[58px] relative text-sm leading-[20px] font-body-text-smaller-text text-text-text-small-light text-left flex items-center h-[22.4px] shrink-0 hover:text-bg-primary">
+              <div className="w-[58px] relative text-sm leading-[20px] font-headings-heading-3 text-text-text-small-light text-left flex items-center h-[22.4px] shrink-0 hover:text-button-colors-dark-sky">
                 {" "}
                 회원가입
               </div>
