@@ -7,20 +7,17 @@ export type MainContentType = {
 const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-full bg-bg-white max-w-full flex flex-col items-center justify-start py-[110px] px-5 box-border gap-[36px] text-center text-base text-text-hint-text font-headings-heading-3 sm:pl-0 sm:pr-0 sm:box-border mq420:pl-0 mq420:pr-0 mq420:box-border ${className}`}
+      className={`w-full bg-bg-white max-w-full flex flex-col items-center justify-start py-[110px] px-5 box-border gap-[36px] text-center text-17xl text-text-colors-gray font-headings-heading-3 sm:pl-0 sm:pr-0 sm:box-border mq420:pl-0 mq420:pr-0 mq420:box-border ${className}`}
     >
-      <div className="w-full bg-bg-white overflow-hidden flex flex-col items-center justify-start gap-[46px] max-w-[1300px]">
-        <div className="self-stretch flex flex-col items-center justify-start gap-[18px]">
-          <b className="w-[1300px] relative leading-[24px] hidden mq420:text-2xs">
-            CYBERCOMMUNICATION ACADEMIC SOCIETY
-          </b>
-          <b className="self-stretch relative text-17xl leading-[40px] text-text-colors-gray sm:text-7xl mq420:text-5xl">
+      <div className="w-full bg-bg-white flex flex-col items-center justify-start gap-[46px] max-w-[1300px]">
+        <div className="self-stretch flex flex-col items-center justify-start">
+          <b className="self-stretch relative leading-[40px] sm:text-7xl mq420:text-5xl">
             학회 갤러리
           </b>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-start gap-[22px] text-left text-text-text-small-light md:flex-col">
+        <div className="self-stretch flex flex-row items-start justify-start gap-[22px] text-left text-base text-text-text-small-light md:flex-col">
           <div className="flex-1 flex flex-col items-start justify-start md:flex-[unset] md:self-stretch">
-            <div className="self-stretch rounded bg-bg-light overflow-hidden flex flex-col items-center justify-start p-5 gap-[20px] sm:pl-5 sm:box-border mq420:p-5 mq420:box-border">
+            <div className="self-stretch rounded bg-bg-light flex flex-col items-center justify-start p-5 gap-[20px] sm:pl-5 sm:box-border mq420:p-5 mq420:box-border">
               <img
                 className="self-stretch relative rounded-10xs max-w-full overflow-hidden h-[403px] shrink-0 object-cover sm:w-[100%!important] sm:h-[auto!important]"
                 alt=""

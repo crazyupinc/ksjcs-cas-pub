@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const SkeletonSub: NextPageSkeletonSubType = () => {
+const SkeletonSub: NextPage = () => {
   return (
     <div className="w-full relative flex flex-col items-start justify-start">
       <div className="self-stretch bg-colors-red-300 h-[7.75rem] md:h-[4.375rem] mq420:h-[4.375rem]" />

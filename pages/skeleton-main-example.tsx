@@ -268,7 +268,7 @@ const SkeletonMainExample: NextPage = () => {
                   <img
                     className="self-stretch flex-1 relative rounded-10xs max-w-[15rem] overflow-hidden max-h-full object-cover sm:w-[100%!important] sm:h-[auto!important]"
                     alt=""
-                    src="/img@2x.png"
+                    src="/img1@2x.png"
                   />
                   <div className="flex-1 h-[8.188rem] overflow-hidden flex flex-col items-start justify-start gap-[0.375rem]">
                     <b className="self-stretch relative leading-[1.5rem] inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[1.5rem] shrink-0 mq420:text-[0.813rem]">
@@ -288,7 +288,7 @@ const SkeletonMainExample: NextPage = () => {
                   <img
                     className="self-stretch flex-1 relative rounded-10xs max-w-[15rem] overflow-hidden max-h-full object-cover sm:w-[100%!important] sm:h-[auto!important]"
                     alt=""
-                    src="/img@2x.png"
+                    src="/img1@2x.png"
                   />
                   <div className="flex-1 h-[8.188rem] overflow-hidden flex flex-col items-start justify-start gap-[0.375rem]">
                     <b className="self-stretch relative leading-[1.5rem] inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[1.5rem] shrink-0 mq420:text-[0.813rem]">
@@ -308,7 +308,7 @@ const SkeletonMainExample: NextPage = () => {
                   <img
                     className="self-stretch flex-1 relative rounded-10xs max-w-[15rem] overflow-hidden max-h-full object-cover sm:w-[100%!important] sm:h-[auto!important]"
                     alt=""
-                    src="/img@2x.png"
+                    src="/img1@2x.png"
                   />
                   <div className="flex-1 h-[8.188rem] overflow-hidden flex flex-col items-start justify-start gap-[0.375rem]">
                     <b className="self-stretch relative leading-[1.5rem] inline-block overflow-hidden text-ellipsis whitespace-nowrap h-[1.5rem] shrink-0 mq420:text-[0.813rem]">
@@ -342,7 +342,7 @@ const SkeletonMainExample: NextPage = () => {
                 <img
                   className="w-[12.5rem] relative h-[3.5rem] object-cover"
                   alt=""
-                  src="/logo@2x.png"
+                  src="/logo2@2x.png"
                 />
                 <div className="w-[13.625rem] h-[1.75rem] relative inline-block sm:text-[0.813rem] mq420:text-[0.813rem]">
                   <p className="m-0">{`사이버 공간 커뮤니케이션에 대한 `}</p>

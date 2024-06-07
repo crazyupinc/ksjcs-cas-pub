@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 
-const HeaderLayout: NextPageHeaderLayoutType = () => {
+const HeaderLayout: NextPage = () => {
   return (
-    <div className="w-full relative bg-bg-colors-light-gray flex flex-col items-start justify-start text-left text-[0.875rem] text-text-colors-normal font-body-text-smaller-text">
+    <div className="w-full relative bg-bg-colors-light-gray flex flex-col items-start justify-start text-left text-[0.875rem] text-text-colors-normal font-headings-heading-3">
       <div className="self-stretch bg-colors-red-50 h-[3.375rem] flex flex-col items-center justify-center py-spacing-4 px-[0.937rem] box-border md:hidden">
         <div className="w-full bg-colors-red-100 h-[1.4rem] flex flex-row items-center justify-end py-[0rem] px-[0.937rem] box-border max-w-[81.25rem]">
           <div className="self-stretch bg-colors-red-200 flex flex-row items-center justify-start">
