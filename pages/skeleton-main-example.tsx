@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 
-const SkeletonMainExample: NextPage = () => {
+const SkeletonMainExample: NextPageSkeletonMainExampleType = () => {
   return (
-    <div className="w-full relative flex flex-col items-start justify-start text-left text-[2.25rem] text-bg-white font-headings-heading-3">
+    <div className="w-full relative flex flex-col items-start justify-start text-left text-[2.25rem] text-button-colors-white font-sub-banner-title">
       <div className="self-stretch bg-colors-red-300 h-[7.75rem] md:h-[4.375rem] mq420:h-[4.375rem]" />
       <div className="self-stretch bg-colors-blue-300 h-[37.5rem] flex flex-col items-center justify-start text-right md:h-[25rem] mq420:h-[25rem]">
         <div className="self-stretch h-[37.5rem] flex flex-row items-center justify-center py-[7.5rem] px-[0rem] box-border bg-[url('/mainbanner@3x.png')] bg-cover bg-no-repeat bg-[top] w-full md:h-[25rem] sm:h-[25rem] mq420:h-[25rem]">
@@ -25,7 +25,7 @@ const SkeletonMainExample: NextPage = () => {
         <div className="self-stretch bg-colors-cyan-950 flex flex-row items-center justify-center py-[2.5rem] px-[1.25rem] box-border min-h-[1.875rem]">
           <div className="w-[81.25rem] flex flex-row items-start justify-between max-w-[81.25rem] sm:h-auto sm:flex-row sm:flex-wrap sm:items-start sm:justify-center sm:pb-[0rem] sm:box-border">
             <div className="flex flex-col items-center justify-start py-[0.375rem] px-[0.5rem] gap-[0.75rem]">
-              <div className="w-[5.313rem] rounded-81xl bg-bg-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[1.062rem] px-[1.125rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
+              <div className="w-[5.313rem] rounded-81xl bg-button-colors-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[1.062rem] px-[1.125rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
                 <img
                   className="w-[3.125rem] relative h-[3.125rem] overflow-hidden shrink-0"
                   alt=""
@@ -37,7 +37,7 @@ const SkeletonMainExample: NextPage = () => {
               </b>
             </div>
             <div className="flex flex-col items-center justify-start py-[0.375rem] px-[0.5rem] gap-[0.75rem]">
-              <div className="w-[5.313rem] rounded-81xl bg-bg-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
+              <div className="w-[5.313rem] rounded-81xl bg-button-colors-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
                 <img
                   className="w-[3.125rem] relative h-[3.125rem] overflow-hidden shrink-0"
                   alt=""
@@ -49,7 +49,7 @@ const SkeletonMainExample: NextPage = () => {
               </b>
             </div>
             <div className="flex flex-col items-center justify-start py-[0.375rem] px-[0.5rem] gap-[0.75rem]">
-              <div className="w-[5.313rem] rounded-81xl bg-bg-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
+              <div className="w-[5.313rem] rounded-81xl bg-button-colors-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
                 <img
                   className="w-[3.125rem] relative h-[3.125rem] overflow-hidden shrink-0"
                   alt=""
@@ -61,7 +61,7 @@ const SkeletonMainExample: NextPage = () => {
               </b>
             </div>
             <div className="flex flex-col items-center justify-start py-[0.375rem] px-[0.25rem] gap-[0.75rem]">
-              <div className="w-[5.313rem] rounded-81xl bg-bg-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[1.125rem] px-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem] mq420:[transform:rotate(0deg)]">
+              <div className="w-[5.313rem] rounded-81xl bg-button-colors-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[1.125rem] px-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem] mq420:[transform:rotate(0deg)]">
                 <img
                   className="w-[3.125rem] relative h-[3.125rem] overflow-hidden shrink-0"
                   alt=""
@@ -73,7 +73,7 @@ const SkeletonMainExample: NextPage = () => {
               </b>
             </div>
             <div className="flex flex-col items-center justify-start py-[0.375rem] px-[0.5rem] gap-[0.75rem]">
-              <div className="w-[5.313rem] rounded-81xl bg-bg-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[1.125rem] px-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
+              <div className="w-[5.313rem] rounded-81xl bg-button-colors-white h-[5.313rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[1.125rem] px-[1.062rem] box-border mq420:w-[3.75rem] mq420:h-[3.75rem]">
                 <img
                   className="w-[3.125rem] relative h-[3.125rem] overflow-hidden shrink-0"
                   alt=""
@@ -87,8 +87,8 @@ const SkeletonMainExample: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch bg-bg-white flex flex-col items-center justify-start min-h-[31.25rem] text-center text-text-colors-gray">
-        <div className="self-stretch bg-bg-white flex flex-col items-center justify-start py-[6.875rem] px-[1.25rem] box-border gap-[2.25rem] w-full">
+      <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start min-h-[31.25rem] text-center text-text-colors-gray">
+        <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start py-[6.875rem] px-[1.25rem] box-border gap-[2.25rem] w-full">
           <div className="flex flex-row items-start justify-center gap-[0.125rem] sm:flex-col sm:items-center sm:justify-center">
             <b className="relative leading-[2.5rem] sm:text-[1.625rem] mq420:text-[1.5rem]">{`사이버 커뮤니케이션 `}</b>
             <b className="relative leading-[2.5rem] sm:text-[1.625rem] mq420:text-[1.5rem]">
@@ -97,23 +97,23 @@ const SkeletonMainExample: NextPage = () => {
           </div>
           <div className="flex flex-row items-center justify-start gap-[0.75rem] border-b-[1px] border-solid border-bg-light-border">
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] h-[1.75rem] flex flex-col items-center justify-center">
-              <b className="self-stretch flex-1 relative text-[0.875rem] leading-[1.25rem] flex font-headings-heading-3 text-text-dark-gray text-center items-center justify-center">
+              <b className="self-stretch flex-1 relative text-[0.875rem] leading-[1.25rem] flex font-sub-banner-title text-text-dark-gray text-center items-center justify-center">
                 공지사항
               </b>
               <div className="self-stretch relative bg-button-colors-dark-sky h-[0.125rem]" />
             </button>
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] h-[1.75rem] flex flex-col items-center justify-center">
-              <div className="self-stretch flex-1 relative text-[0.875rem] leading-[1.25rem] font-headings-heading-3 text-text-gray text-center flex items-center justify-center">
+              <div className="self-stretch flex-1 relative text-[0.875rem] leading-[1.25rem] font-sub-banner-title text-text-gray text-center flex items-center justify-center">
                 주요행사
               </div>
             </button>
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] h-[1.75rem] flex flex-col items-center justify-center">
-              <div className="self-stretch flex-1 relative text-[0.875rem] leading-[1.25rem] font-headings-heading-3 text-text-gray text-center flex items-center justify-center">
+              <div className="self-stretch flex-1 relative text-[0.875rem] leading-[1.25rem] font-sub-banner-title text-text-gray text-center flex items-center justify-center">
                 회원동정
               </div>
             </button>
           </div>
-          <div className="w-full flex flex-row items-start justify-center gap-[1.125rem] max-w-[81.25rem] text-[0.875rem] text-bg-white md:flex-col md:items-center md:justify-center md:pl-[2.5rem] md:pr-[2.5rem] md:box-border mq420:pl-[0rem] mq420:pr-[0rem] mq420:box-border">
+          <div className="w-full flex flex-row items-start justify-center gap-[1.125rem] max-w-[81.25rem] text-[0.875rem] text-button-colors-white md:flex-col md:items-center md:justify-center md:pl-[2.5rem] md:pr-[2.5rem] md:box-border mq420:pl-[0rem] mq420:pr-[0rem] mq420:box-border">
             <div className="w-[26.25rem] flex flex-col items-start justify-start py-[1.25rem] px-[0rem] box-border gap-[1.125rem] min-w-[18.75rem] md:self-stretch md:w-auto">
               <div className="rounded-2xl bg-colors-cyan-800 flex flex-row items-center justify-center py-[0.125rem] px-[0.5rem]">
                 <div className="relative leading-[1.25rem] mq420:text-[0.75rem]">
@@ -182,7 +182,7 @@ const SkeletonMainExample: NextPage = () => {
             </div>
           </div>
           <button className="cursor-pointer py-[0.375rem] px-[1rem] bg-[transparent] rounded-xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-button-colors-dark-sky hover:bg-gainsboro-100">
-            <div className="relative text-[0.75rem] leading-[1rem] font-headings-heading-3 text-button-colors-dark-sky text-center mq420:text-[0.688rem]">
+            <div className="relative text-[0.75rem] leading-[1rem] font-sub-banner-title text-button-colors-dark-sky text-center mq420:text-[0.688rem]">
               더보기
             </div>
           </button>
@@ -214,12 +214,12 @@ const SkeletonMainExample: NextPage = () => {
               </div>
               <div className="self-stretch flex flex-row items-start justify-start gap-[0.5rem] md:items-start md:justify-center">
                 <button className="cursor-pointer py-[0.875rem] px-[1.75rem] bg-[transparent] rounded-md overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-button-colors-dark-sky hover:bg-gainsboro-100 sm:py-[0.5rem] sm:px-[1rem] sm:box-border">
-                  <div className="relative text-[1rem] leading-[1.5rem] font-headings-heading-3 text-button-colors-dark-sky text-center sm:text-[0.813rem]">
+                  <div className="relative text-[1rem] leading-[1.5rem] font-sub-banner-title text-button-colors-dark-sky text-center sm:text-[0.813rem]">
                     논문투고 안내
                   </div>
                 </button>
                 <button className="cursor-pointer [border:none] py-[0.875rem] px-[1.75rem] bg-text-colors-amber rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue sm:py-[0.5rem] sm:px-[1rem] sm:box-border">
-                  <div className="relative text-[1rem] leading-[1.5rem] font-headings-heading-3 text-bg-white text-center sm:text-[0.813rem]">
+                  <div className="relative text-[1rem] leading-[1.5rem] font-sub-banner-title text-button-colors-white text-center sm:text-[0.813rem]">
                     온라인 논문투고
                   </div>
                 </button>
@@ -228,9 +228,9 @@ const SkeletonMainExample: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="self-stretch bg-bg-white flex flex-col items-center justify-start min-h-[31.25rem] text-center text-[1rem] text-text-hint-text">
-        <div className="self-stretch bg-bg-white flex flex-col items-center justify-start py-[6.875rem] px-[1.25rem] box-border gap-[2.25rem] w-full sm:pl-[0rem] sm:pr-[0rem] sm:box-border mq420:pl-[0rem] mq420:pr-[0rem] mq420:box-border">
-          <div className="w-full bg-bg-white overflow-hidden flex flex-col items-center justify-start gap-[2.875rem] max-w-[81.25rem]">
+      <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start min-h-[31.25rem] text-center text-[1rem] text-text-hint-text">
+        <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start py-[6.875rem] px-[1.25rem] box-border gap-[2.25rem] w-full sm:pl-[0rem] sm:pr-[0rem] sm:box-border mq420:pl-[0rem] mq420:pr-[0rem] mq420:box-border">
+          <div className="w-full bg-button-colors-white overflow-hidden flex flex-col items-center justify-start gap-[2.875rem] max-w-[81.25rem]">
             <div className="self-stretch flex flex-col items-center justify-start gap-[1.125rem]">
               <b className="w-[81.25rem] relative leading-[1.5rem] hidden mq420:text-[0.688rem]">
                 CYBERCOMMUNICATION ACADEMIC SOCIETY
@@ -328,14 +328,14 @@ const SkeletonMainExample: NextPage = () => {
             </div>
           </div>
           <button className="cursor-pointer py-[0.375rem] px-[1rem] bg-[transparent] rounded-xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-button-colors-dark-sky hover:bg-gainsboro-100">
-            <div className="relative text-[0.75rem] leading-[1rem] font-headings-heading-3 text-button-colors-dark-sky text-center mq420:text-[0.688rem]">
+            <div className="relative text-[0.75rem] leading-[1rem] font-sub-banner-title text-button-colors-dark-sky text-center mq420:text-[0.688rem]">
               더보기
             </div>
           </button>
         </div>
       </div>
       <div className="self-stretch bg-colors-green-300 flex flex-col items-center justify-start min-h-[13.125rem]">
-        <footer className="self-stretch bg-bg-light flex flex-row items-start justify-center py-[2.25rem] px-[1.25rem] box-border w-full text-left text-[0.875rem] text-text-text-small-light font-headings-heading-3 md:flex-col md:pt-[2.5rem] md:px-[1.5rem] md:pb-[1.875rem] md:box-border sm:py-[1.875rem] sm:px-[1.5rem] sm:box-border">
+        <footer className="self-stretch bg-bg-light flex flex-row items-start justify-center py-[2.25rem] px-[1.25rem] box-border w-full text-left text-[0.875rem] text-text-text-small-light font-sub-banner-title md:flex-col md:pt-[2.5rem] md:px-[1.5rem] md:pb-[1.875rem] md:box-border sm:py-[1.875rem] sm:px-[1.5rem] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-start gap-[1.5rem] md:flex-[unset] md:self-stretch">
             <div className="w-full flex flex-row items-start justify-start gap-[0.5rem] max-w-[81.25rem] mq420:flex-col mq420:gap-[0.5rem]">
               <div className="flex-1 flex flex-col items-start justify-start gap-[0.875rem] !mb-[40px] mq420:flex-[unset] mq420:self-stretch">

@@ -10,7 +10,7 @@ export type BbsContentListType = {
 const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-base text-dark-gray font-headings-heading-3 ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-base text-dark-gray font-sub-banner-title ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10">
         <div className="w-full flex flex-col items-end justify-center gap-[26px] max-w-[1300px]">
@@ -19,14 +19,14 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
               <div className="w-[340px] relative leading-[24px] hidden">
                 Email
               </div>
-              <div className="self-stretch rounded-default-border-raius bg-bg-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border sm:pt-1.5 sm:pb-1.5 sm:box-border">
+              <div className="self-stretch rounded-default-border-raius bg-button-colors-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border sm:pt-1.5 sm:pb-1.5 sm:box-border">
                 <img
                   className="w-[18px] relative h-[18px] overflow-hidden shrink-0"
                   alt=""
                   src="/iconsearch.svg"
                 />
                 <input
-                  className="[border:none] [outline:none] font-headings-heading-3 text-base bg-[transparent] flex-1 relative leading-[24px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap sm:text-smi"
+                  className="[border:none] [outline:none] font-sub-banner-title text-base bg-[transparent] flex-1 relative leading-[24px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap sm:text-smi"
                   placeholder="검색어를 입력해주세요."
                   type="text"
                 />
@@ -36,7 +36,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="self-stretch bg-bg-white flex flex-col items-center justify-start text-center text-sm text-text-gray">
+          <div className="self-stretch bg-button-colors-white flex flex-col items-center justify-start text-center text-sm text-text-gray">
             <TableBbsHeaderRow />
             <TableBbsDataRow
               prop="820"
@@ -50,7 +50,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 `}</div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -100,7 +100,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 Ⅳ `}</div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -150,7 +150,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니`}</div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -200,7 +200,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel`}</div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -250,7 +250,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결`}</div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -300,7 +300,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): `}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -350,7 +350,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 `}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -400,7 +400,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): `}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -450,7 +450,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운`}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -500,7 +500,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): `}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -550,7 +550,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구`}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -602,7 +602,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                   <div className="relative leading-[20px]">
                     2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내
                   </div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -652,7 +652,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="flex-1 relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새로운 마케팅 새로운 마케팅 커뮤니케이션 패러다임의 도래> 2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로(Funnel): 새`}</div>
-                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="hidden flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"
@@ -702,7 +702,7 @@ const BbsContentList: NextPage<BbsContentListType> = ({ className = "" }) => {
                 </div>
                 <div className="flex-1 flex flex-row items-start justify-start gap-[4px] text-left text-button-colors-dark-sky">
                   <div className="relative leading-[20px]">{`2024 봄철 정기학술대회 특별기획세션 발제자 선정 결과 안내 <무너진 구매 경로>`}</div>
-                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-bg-white">
+                  <div className="flex flex-col items-start justify-start py-0.5 px-0 text-xs text-button-colors-white">
                     <div className="rounded [background:linear-gradient(rgba(255,_255,_255,_0.4),_rgba(255,_255,_255,_0.4)),_#0369a1] flex flex-row items-center justify-start py-0 pr-0.5 pl-1">
                       <img
                         className="w-3 relative h-3"

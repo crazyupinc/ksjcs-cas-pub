@@ -27,7 +27,7 @@ const TableMypageRow: NextPage<TableMypageRowType> = ({
 
   return (
     <div
-      className={`max-w-full overflow-hidden flex flex-col items-start justify-center min-w-[200px] text-left text-sm text-text-title-small font-headings-heading-3 self-stretch hover:bg-bg-light sm:flex-col ${className}`}
+      className={`max-w-full overflow-hidden flex flex-col items-start justify-center min-w-[200px] text-left text-sm text-text-title-small font-sub-banner-title self-stretch hover:bg-bg-light sm:flex-col ${className}`}
     >
       <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
         <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">

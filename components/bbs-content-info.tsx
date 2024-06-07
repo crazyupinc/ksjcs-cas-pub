@@ -7,7 +7,7 @@ export type BbsContentInfoType = {
 const BbsContentInfo: NextPage<BbsContentInfoType> = ({ className = "" }) => {
   return (
     <div
-      className={`max-w-full flex flex-row items-center justify-start py-1 px-0 box-border gap-[3px] text-center text-sm text-text-hint-text font-headings-heading-3 self-stretch ${className}`}
+      className={`max-w-full flex flex-row items-center justify-start py-1 px-0 box-border gap-[3px] text-center text-sm text-text-hint-text font-sub-banner-title self-stretch ${className}`}
     >
       <div className="w-20 flex flex-row items-center justify-center gap-[4px] text-text-text-small sm:w-auto sm:[align-self:unset]">
         <img

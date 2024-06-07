@@ -10,7 +10,7 @@ const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
 }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-5xl text-text-title-small font-headings-heading-3 ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-5xl text-text-title-small font-sub-banner-title ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10">
         <div className="w-full flex flex-col items-center justify-start gap-[8px] max-w-[1300px]">
@@ -85,7 +85,7 @@ const BbsGalleryDetail: NextPage<BbsGalleryDetailType> = ({
           </div>
         </div>
         <button className="cursor-pointer [border:none] py-2 px-7 bg-text-gray rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue sm:py-2.5 sm:px-4 sm:box-border mq420:py-2.5 mq420:px-4 mq420:box-border">
-          <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
+          <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-white text-center">
             목록
           </div>
         </button>

@@ -25,7 +25,7 @@ const MoButton: NextPage<MoButtonType> = ({
       className={`cursor-pointer py-px px-0 bg-[transparent] w-[300px] box-border h-[42px] flex flex-col items-center justify-center min-w-[150px] max-w-[300px] border-[1px] border-solid border-bg-light-border ${className}`}
       style={moButtonStyle}
     >
-      <div className="self-stretch relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
+      <div className="self-stretch relative text-sm leading-[20px] font-sub-banner-title text-button-colors-white text-center">
         {title}
       </div>
     </button>

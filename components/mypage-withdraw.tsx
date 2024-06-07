@@ -7,7 +7,7 @@ export type MypageWithdrawType = {
 const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-semantic-error font-headings-heading-3 ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-semantic-error font-sub-banner-title ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[40px] md:pb-5 md:box-border mq420:pb-5 mq420:box-border">
@@ -107,49 +107,49 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
                   </div>
                   <div className="flex flex-col items-start justify-center gap-[3px] text-text-text-small-light">
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         아이디 변경을 위해
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         일시적으로 가입했기 때문에
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         더 이상 학회 회원이 아니라서
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         학회 사이트 이용빈도가 낮아서
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         학회 사이트에 유익한 콘텐츠나 정보가 없어서
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         학회 사이트 이용이 불편하고 장애가 많아서
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         학회 광고(메일, 팝업 등)가 불편해서
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[8px]">
-                      <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                      <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                       <div className="relative leading-[20px]">
                         해당 없음(단순 탈퇴)
                       </div>
@@ -158,7 +158,7 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-white sm:flex-col">
+            <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-button-colors-white sm:flex-col">
               <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
                 <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
                   <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center">
@@ -171,14 +171,14 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
                       <div className="w-[340px] relative leading-[24px] hidden">
                         Email
                       </div>
-                      <div className="self-stretch rounded-default-border-raius bg-bg-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border mq420:p-1.5 mq420:box-border">
+                      <div className="self-stretch rounded-default-border-raius bg-button-colors-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border mq420:p-1.5 mq420:box-border">
                         <img
                           className="w-[18px] relative h-[18px] overflow-hidden shrink-0 hidden"
                           alt=""
                           src="/icon5.svg"
                         />
                         <input
-                          className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                          className="[border:none] [outline:none] font-sub-banner-title text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                           placeholder="비밀번호를 입력하세요."
                           type="password"
                         />
@@ -193,7 +193,7 @@ const MypageWithdraw: NextPage<MypageWithdrawType> = ({ className = "" }) => {
             </div>
           </div>
           <button className="cursor-pointer [border:none] py-2 px-7 bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
+            <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-white text-center">
               탈퇴
             </div>
           </button>

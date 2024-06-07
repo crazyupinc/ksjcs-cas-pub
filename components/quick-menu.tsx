@@ -7,11 +7,11 @@ export type QuickMenuType = {
 const QuickMenu: NextPage<QuickMenuType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-colors-cyan-950 max-w-full flex flex-row items-center justify-center py-10 px-5 box-border min-h-[30px] text-left text-base text-bg-white font-noto-sans-kr ${className}`}
+      className={`w-[1920px] bg-colors-cyan-950 max-w-full flex flex-row items-center justify-center py-10 px-5 box-border min-h-[30px] text-left text-base text-button-colors-white font-noto-sans-kr ${className}`}
     >
       <div className="w-[1300px] flex flex-row items-start justify-between max-w-[1300px] sm:h-auto sm:flex-row sm:flex-wrap sm:items-start sm:justify-center sm:pb-0 sm:box-border">
         <div className="flex flex-col items-center justify-start py-1.5 px-2 gap-[12px]">
-          <div className="w-[85px] rounded-81xl bg-bg-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[17px] px-[18px] box-border mq420:w-[60px] mq420:h-[60px]">
+          <div className="w-[85px] rounded-81xl bg-button-colors-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[17px] px-[18px] box-border mq420:w-[60px] mq420:h-[60px]">
             <img
               className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
               alt=""
@@ -23,7 +23,7 @@ const QuickMenu: NextPage<QuickMenuType> = ({ className = "" }) => {
           </b>
         </div>
         <div className="flex flex-col items-center justify-start py-1.5 px-2 gap-[12px]">
-          <div className="w-[85px] rounded-81xl bg-bg-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[17px] box-border mq420:w-[60px] mq420:h-[60px]">
+          <div className="w-[85px] rounded-81xl bg-button-colors-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[17px] box-border mq420:w-[60px] mq420:h-[60px]">
             <img
               className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
               alt=""
@@ -35,7 +35,7 @@ const QuickMenu: NextPage<QuickMenuType> = ({ className = "" }) => {
           </b>
         </div>
         <div className="flex flex-col items-center justify-start py-1.5 px-2 gap-[12px]">
-          <div className="w-[85px] rounded-81xl bg-bg-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[17px] box-border mq420:w-[60px] mq420:h-[60px]">
+          <div className="w-[85px] rounded-81xl bg-button-colors-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center p-[17px] box-border mq420:w-[60px] mq420:h-[60px]">
             <img
               className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
               alt=""
@@ -47,7 +47,7 @@ const QuickMenu: NextPage<QuickMenuType> = ({ className = "" }) => {
           </b>
         </div>
         <div className="flex flex-col items-center justify-start py-1.5 px-1 gap-[12px]">
-          <div className="w-[85px] rounded-81xl bg-bg-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[18px] px-[17px] box-border mq420:w-[60px] mq420:h-[60px] mq420:[transform:rotate(0deg)]">
+          <div className="w-[85px] rounded-81xl bg-button-colors-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[18px] px-[17px] box-border mq420:w-[60px] mq420:h-[60px] mq420:[transform:rotate(0deg)]">
             <img
               className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
               alt=""
@@ -59,7 +59,7 @@ const QuickMenu: NextPage<QuickMenuType> = ({ className = "" }) => {
           </b>
         </div>
         <div className="flex flex-col items-center justify-start py-1.5 px-2 gap-[12px]">
-          <div className="w-[85px] rounded-81xl bg-bg-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[18px] px-[17px] box-border mq420:w-[60px] mq420:h-[60px]">
+          <div className="w-[85px] rounded-81xl bg-button-colors-white h-[85px] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[18px] px-[17px] box-border mq420:w-[60px] mq420:h-[60px]">
             <img
               className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
               alt=""

@@ -10,7 +10,7 @@ export type BbsVideoListType = {
 const BbsVideoList: NextPage<BbsVideoListType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10">
         <div className="w-full flex flex-col items-end justify-center gap-[26px] max-w-[1300px]">
@@ -27,7 +27,7 @@ const BbsVideoList: NextPage<BbsVideoListType> = ({ className = "" }) => {
                 alt=""
                 src="/icongridwhite.svg"
               />
-              <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
+              <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-white text-center">
                 카드
               </div>
             </button>
@@ -37,7 +37,7 @@ const BbsVideoList: NextPage<BbsVideoListType> = ({ className = "" }) => {
                 alt=""
                 src="/iconlistbold.svg"
               />
-              <div className="relative text-sm leading-[20px] font-headings-heading-3 text-button-colors-dark-sky text-center">
+              <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-dark-sky text-center">
                 리스트
               </div>
             </button>

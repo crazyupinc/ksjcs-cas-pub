@@ -40,7 +40,7 @@ const Button: NextPage<ButtonType> = ({
       style={button2Style}
     >
       <div
-        className="relative text-base leading-[24px] font-headings-heading-3 text-bg-white text-center sm:text-smi mq420:text-smi"
+        className="relative text-base leading-[24px] font-sub-banner-title text-button-colors-white text-center sm:text-smi mq420:text-smi"
         style={button3Style}
       >
         {button}

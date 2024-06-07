@@ -7,9 +7,9 @@ export type MainContentType = {
 const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-full bg-bg-white max-w-full flex flex-col items-center justify-start py-[110px] px-5 box-border gap-[36px] text-center text-17xl text-text-colors-gray font-headings-heading-3 sm:pl-0 sm:pr-0 sm:box-border mq420:pl-0 mq420:pr-0 mq420:box-border ${className}`}
+      className={`w-full bg-button-colors-white max-w-full flex flex-col items-center justify-start py-[110px] px-5 box-border gap-[36px] text-center text-17xl text-text-colors-gray font-sub-banner-title sm:pl-0 sm:pr-0 sm:box-border mq420:pl-0 mq420:pr-0 mq420:box-border ${className}`}
     >
-      <div className="w-full bg-bg-white flex flex-col items-center justify-start gap-[46px] max-w-[1300px]">
+      <div className="w-full bg-button-colors-white flex flex-col items-center justify-start gap-[46px] max-w-[1300px]">
         <div className="self-stretch flex flex-col items-center justify-start">
           <b className="self-stretch relative leading-[40px] sm:text-7xl mq420:text-5xl">
             학회 갤러리
@@ -103,7 +103,7 @@ const MainContent: NextPage<MainContentType> = ({ className = "" }) => {
         </div>
       </div>
       <button className="cursor-pointer py-1.5 px-4 bg-[transparent] rounded-xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-button-colors-dark-sky hover:bg-gainsboro-100">
-        <div className="relative text-xs leading-[16px] font-headings-heading-3 text-button-colors-dark-sky text-center mq420:text-2xs">
+        <div className="relative text-xs leading-[16px] font-sub-banner-title text-button-colors-dark-sky text-center mq420:text-2xs">
           더보기
         </div>
       </button>

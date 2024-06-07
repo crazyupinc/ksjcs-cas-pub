@@ -7,7 +7,7 @@ export type MainBannerType = {
 const MainBanner: NextPage<MainBannerType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-full h-[600px] max-w-full flex flex-row items-center justify-center py-[120px] px-0 box-border bg-[url('/mainbanner@3x.png')] bg-cover bg-no-repeat bg-[top] text-right text-17xl text-bg-white font-headings-heading-3 md:h-[400px] sm:h-[400px] mq420:h-[400px] ${className}`}
+      className={`w-full h-[600px] max-w-full flex flex-row items-center justify-center py-[120px] px-0 box-border bg-[url('/mainbanner@3x.png')] bg-cover bg-no-repeat bg-[top] text-right text-17xl text-button-colors-white font-sub-banner-title md:h-[400px] sm:h-[400px] mq420:h-[400px] ${className}`}
     >
       <div className="w-[1300px] flex flex-row items-start justify-center py-0 px-10 box-border max-w-[1300px] mq420:pl-5 mq420:pr-5 mq420:box-border">
         <div className="flex-1 h-[446px] flex flex-col items-center justify-center">

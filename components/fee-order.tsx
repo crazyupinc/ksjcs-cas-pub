@@ -9,7 +9,7 @@ export type FeeOrderType = {
 const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-text-text-small-light font-headings-heading-3 ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-sm text-text-text-small-light font-sub-banner-title ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[40px] md:pb-5 md:box-border mq420:pb-5 mq420:box-border">
@@ -79,7 +79,7 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
             />
             <div className="self-stretch relative text-right flex items-center h-16 shrink-0 text-11xl text-button-colors-dark-sky sm:text-lg mq420:text-lg">
               <span>
-                <span className="text-base leading-[24px] font-headings-heading-3 text-text-colors-gray">
+                <span className="text-base leading-[24px] font-sub-banner-title text-text-colors-gray">
                   결제금액 총
                 </span>
                 <b>
@@ -100,7 +100,7 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
               <b className="self-stretch relative leading-[28px] sm:text-lg mq420:text-lg">
                 납부자 정보
               </b>
-              <div className="w-full bg-bg-white box-border flex flex-col items-start justify-start max-w-[1300px] text-sm text-text-title-small border-t-[1px] border-solid border-text-hint-text">
+              <div className="w-full bg-button-colors-white box-border flex flex-col items-start justify-start max-w-[1300px] text-sm text-text-title-small border-t-[1px] border-solid border-text-hint-text">
                 <TableMypageRequiredInputRow
                   title="납부자명 "
                   placeholder="납부자명을 입력해주세요."
@@ -116,7 +116,7 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
                   showEmail={false}
                   showIcon={false}
                 />
-                <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-bg-white sm:flex-col">
+                <div className="self-stretch overflow-hidden flex flex-col items-start justify-center min-w-[200px] hover:bg-bg-light lg:bg-button-colors-white sm:flex-col">
                   <div className="self-stretch flex flex-row items-center justify-start py-2.5 px-5 border-b-[1px] border-solid border-bg-light-border sm:flex sm:flex-row sm:pl-2 sm:pr-2 sm:box-border mq420:pl-2 mq420:pr-2 mq420:box-border">
                     <div className="flex-1 flex flex-row items-center justify-start py-0.5 px-0 gap-[80px] md:gap-[80px] sm:flex-col sm:gap-[8px] mq420:gap-[8px]">
                       <div className="w-40 flex flex-row items-center justify-start py-2 px-4 box-border sm:bg-bg-light-border sm:self-stretch sm:w-auto sm:items-center sm:justify-center">
@@ -132,14 +132,14 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
                           <div className="w-[340px] relative leading-[24px] hidden">
                             Email
                           </div>
-                          <div className="self-stretch rounded-default-border-raius bg-bg-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border mq420:p-1.5 mq420:box-border">
+                          <div className="self-stretch rounded-default-border-raius bg-button-colors-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border mq420:p-1.5 mq420:box-border">
                             <img
                               className="w-[18px] relative h-[18px] overflow-hidden shrink-0 hidden"
                               alt=""
                               src="/icon5.svg"
                             />
                             <input
-                              className="[border:none] [outline:none] font-headings-heading-3 text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
+                              className="[border:none] [outline:none] font-sub-banner-title text-sm bg-[transparent] flex-1 relative leading-[20px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap"
                               placeholder="휴대폰 번호를 입력해주세요."
                               type="password"
                             />
@@ -164,7 +164,7 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
                         </div>
                       </div>
                       <div className="flex flex-row items-center justify-start gap-[8px] text-text-text-small-light">
-                        <div className="w-4 relative rounded-border-radius-full bg-bg-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
+                        <div className="w-4 relative rounded-border-radius-full bg-button-colors-white box-border h-4 border-[1px] border-solid border-bg-light-border" />
                         <div className="relative leading-[20px]">
                           무통장 입금
                         </div>
@@ -176,7 +176,7 @@ const FeeOrder: NextPage<FeeOrderType> = ({ className = "" }) => {
             </div>
           </div>
           <button className="cursor-pointer [border:none] py-2 px-7 bg-button-colors-dark-sky rounded-md overflow-hidden flex flex-row items-center justify-center hover:bg-royalblue">
-            <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
+            <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-white text-center">
               납부 신청
             </div>
           </button>

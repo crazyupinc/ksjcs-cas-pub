@@ -9,7 +9,7 @@ export type BbsGalleryListType = {
 const BbsGalleryList: NextPage<BbsGalleryListType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-base text-dark-gray font-headings-heading-3 ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-start justify-start p-5 box-border text-left text-base text-dark-gray font-sub-banner-title ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10">
         <div className="w-full flex flex-col items-end justify-center gap-[26px] max-w-[1300px]">
@@ -18,14 +18,14 @@ const BbsGalleryList: NextPage<BbsGalleryListType> = ({ className = "" }) => {
               <div className="w-[340px] relative leading-[24px] hidden">
                 Email
               </div>
-              <div className="self-stretch rounded-default-border-raius bg-bg-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border sm:pt-1.5 sm:pb-1.5 sm:box-border">
+              <div className="self-stretch rounded-default-border-raius bg-button-colors-white flex flex-row items-center justify-start py-2.5 px-3.5 gap-[10px] border-[1px] border-solid border-bg-light-border sm:pt-1.5 sm:pb-1.5 sm:box-border">
                 <img
                   className="w-[18px] relative h-[18px] overflow-hidden shrink-0"
                   alt=""
                   src="/iconsearch.svg"
                 />
                 <input
-                  className="[border:none] [outline:none] font-headings-heading-3 text-base bg-[transparent] flex-1 relative leading-[24px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap sm:text-smi"
+                  className="[border:none] [outline:none] font-sub-banner-title text-base bg-[transparent] flex-1 relative leading-[24px] text-text-dark-gray text-left overflow-hidden text-ellipsis whitespace-nowrap sm:text-smi"
                   placeholder="검색어를 입력해주세요."
                   type="text"
                 />
@@ -42,7 +42,7 @@ const BbsGalleryList: NextPage<BbsGalleryListType> = ({ className = "" }) => {
                 alt=""
                 src="/icongridwhite.svg"
               />
-              <div className="relative text-sm leading-[20px] font-headings-heading-3 text-bg-white text-center">
+              <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-white text-center">
                 카드
               </div>
             </button>
@@ -52,7 +52,7 @@ const BbsGalleryList: NextPage<BbsGalleryListType> = ({ className = "" }) => {
                 alt=""
                 src="/iconlistbold.svg"
               />
-              <div className="relative text-sm leading-[20px] font-headings-heading-3 text-button-colors-dark-sky text-center">
+              <div className="relative text-sm leading-[20px] font-sub-banner-title text-button-colors-dark-sky text-center">
                 리스트
               </div>
             </button>

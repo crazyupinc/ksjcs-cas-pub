@@ -9,7 +9,7 @@ export type MypageFeeType = {
 const MypageFee: NextPage<MypageFeeType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1920px] bg-bg-white max-w-full flex flex-col items-center justify-start p-5 box-border text-left text-lg text-text-dark-gray font-headings-heading-3 ${className}`}
+      className={`w-[1920px] bg-button-colors-white max-w-full flex flex-col items-center justify-start p-5 box-border text-left text-lg text-text-dark-gray font-sub-banner-title ${className}`}
     >
       <div className="self-stretch flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-10 gap-[36px] mq420:pb-5 mq420:box-border">
@@ -17,7 +17,7 @@ const MypageFee: NextPage<MypageFeeType> = ({ className = "" }) => {
             <div className="self-stretch flex flex-row items-center justify-between py-0 px-5 sm:pl-4 sm:pr-2 sm:box-border mq420:pl-2.5 mq420:pr-2.5 mq420:box-border">
               <b className="relative mq420:text-sm">사이버커뮤니케이션 학회</b>
               <button className="cursor-pointer [border:none] py-1.5 px-0 bg-[transparent] rounded-md h-7 overflow-hidden flex flex-row items-center justify-center box-border sm:py-2.5 sm:px-4 sm:box-border mq420:py-2.5 mq420:px-4 mq420:box-border">
-                <b className="relative text-xs leading-[16px] font-headings-heading-3 text-button-colors-dark-sky text-center hover:text-steelblue">
+                <b className="relative text-xs leading-[16px] font-sub-banner-title text-button-colors-dark-sky text-center hover:text-steelblue">
                   학회비 납부
                 </b>
                 <img
@@ -27,7 +27,7 @@ const MypageFee: NextPage<MypageFeeType> = ({ className = "" }) => {
                 />
               </button>
             </div>
-            <div className="self-stretch bg-button-colors-dark-sky flex flex-row items-end justify-center p-5 text-sm text-bg-white">
+            <div className="self-stretch bg-button-colors-dark-sky flex flex-row items-end justify-center p-5 text-sm text-button-colors-white">
               <div className="flex-1 flex flex-col items-start justify-start gap-[6px]">
                 <div className="self-stretch flex flex-row items-start justify-start gap-[2px]">
                   <b className="relative leading-[20px] mq420:text-smi">
@@ -68,7 +68,7 @@ const MypageFee: NextPage<MypageFeeType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="w-full bg-bg-white flex flex-col items-start justify-start max-w-[1300px]">
+          <div className="w-full bg-button-colors-white flex flex-col items-start justify-start max-w-[1300px]">
             <TableMypageFeeRow />
             <TableMypageFeeDataRow
               number="1"

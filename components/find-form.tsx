@@ -113,28 +113,28 @@ const FindForm: NextPage<FindFormType> = ({
 
   return (
     <div
-      className={`w-[600px] rounded-xl bg-bg-white max-w-[600px] flex flex-col items-center justify-start py-9 px-4 box-border gap-[40px] min-w-[300px] text-left text-sm text-text-text-small-light font-headings-heading-3 ${className}`}
+      className={`w-[600px] rounded-xl bg-button-colors-white max-w-[600px] flex flex-col items-center justify-start py-9 px-4 box-border gap-[40px] min-w-[300px] text-left text-sm text-text-text-small-light font-sub-banner-title ${className}`}
     >
       <div className="box-border flex flex-row items-center justify-center gap-[6px] min-w-[150px] border-b-[1px] border-solid border-bg-light-border">
         <button className="cursor-pointer [border:none] pt-0 px-0 pb-0.5 bg-[transparent] self-stretch hidden flex-col items-center justify-center">
-          <div className="self-stretch flex-1 relative text-xs leading-[16px] font-headings-heading-3 text-text-gray text-center flex items-center justify-center">
+          <div className="self-stretch flex-1 relative text-xs leading-[16px] font-sub-banner-title text-text-gray text-center flex items-center justify-center">
             Account
           </div>
         </button>
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] h-7 flex flex-col items-center justify-center">
-          <b className="self-stretch flex-1 relative text-xs leading-[16px] flex font-headings-heading-3 text-text-dark-gray text-center items-center justify-center">
+          <b className="self-stretch flex-1 relative text-xs leading-[16px] flex font-sub-banner-title text-text-dark-gray text-center items-center justify-center">
             아이디 찾기
           </b>
           <div className="self-stretch relative bg-button-colors-dark-sky h-0.5" />
         </button>
         <button className="cursor-pointer [border:none] pt-0 px-0 pb-0.5 bg-[transparent] h-7 flex flex-col items-center justify-center box-border">
-          <b className="self-stretch flex-1 relative text-xs leading-[16px] flex font-headings-heading-3 text-text-hint-text text-center items-center justify-center">
+          <b className="self-stretch flex-1 relative text-xs leading-[16px] flex font-sub-banner-title text-text-hint-text text-center items-center justify-center">
             비밀번호 찾기
           </b>
         </button>
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch hidden flex-col items-center justify-center">
           <div
-            className="self-stretch flex-1 relative text-xs leading-[16px] font-headings-heading-3 text-text-gray text-center flex items-center justify-center"
+            className="self-stretch flex-1 relative text-xs leading-[16px] font-sub-banner-title text-text-gray text-center flex items-center justify-center"
             style={themeStyle}
           >
             Theme
@@ -142,7 +142,7 @@ const FindForm: NextPage<FindFormType> = ({
         </button>
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch hidden flex-col items-center justify-center">
           <div
-            className="self-stretch flex-1 relative text-xs leading-[16px] font-headings-heading-3 text-text-gray text-center flex items-center justify-center"
+            className="self-stretch flex-1 relative text-xs leading-[16px] font-sub-banner-title text-text-gray text-center flex items-center justify-center"
             style={theme1Style}
           >
             Theme
@@ -150,7 +150,7 @@ const FindForm: NextPage<FindFormType> = ({
         </button>
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch hidden flex-col items-center justify-center">
           <div
-            className="self-stretch flex-1 relative text-xs leading-[16px] font-headings-heading-3 text-text-gray text-center flex items-center justify-center"
+            className="self-stretch flex-1 relative text-xs leading-[16px] font-sub-banner-title text-text-gray text-center flex items-center justify-center"
             style={theme2Style}
           >
             Theme
@@ -177,13 +177,13 @@ const FindForm: NextPage<FindFormType> = ({
           style={inputStyle}
         >
           <input
-            className="[outline:none] bg-bg-white self-stretch rounded flex flex-col items-start justify-start py-2.5 px-3.5 font-headings-heading-3 text-sm text-text-dark-gray border-[1px] border-solid border-bg-light-border"
+            className="[outline:none] bg-button-colors-white self-stretch rounded flex flex-col items-start justify-start py-2.5 px-3.5 font-sub-banner-title text-sm text-text-dark-gray border-[1px] border-solid border-bg-light-border"
             placeholder="이름을 입력해주세요."
             type="text"
             style={inputFieldStyle}
           />
           <input
-            className="[outline:none] font-headings-heading-3 text-sm bg-bg-white self-stretch rounded flex flex-col items-start justify-start py-2.5 px-3.5 text-text-dark-gray border-[1px] border-solid border-bg-light-border"
+            className="[outline:none] font-sub-banner-title text-sm bg-button-colors-white self-stretch rounded flex flex-col items-start justify-start py-2.5 px-3.5 text-text-dark-gray border-[1px] border-solid border-bg-light-border"
             placeholder="이름을 입력해주세요."
             type="text"
             style={inputField1Style}
@@ -194,7 +194,7 @@ const FindForm: NextPage<FindFormType> = ({
           style={buttonStyle}
         >
           <div
-            className="relative text-base leading-[24px] font-headings-heading-3 text-bg-white text-center mq420:text-smi"
+            className="relative text-base leading-[24px] font-sub-banner-title text-button-colors-white text-center mq420:text-smi"
             style={button1Style}
           >
             아이디 찾기
