@@ -10,7 +10,7 @@ const WithdrawalUser: NextPage<WithdrawalUserType> = ({ className = "" }) => {
     <div
       className={`w-[1456px] max-w-full flex flex-col items-start justify-start min-w-[500px] ${className}`}
     >
-      <div className="self-stretch rounded bg-bg-colors-white flex flex-col items-start justify-start p-4 border-[1px] border-solid border-gray1">
+      <div className="self-stretch rounded bg-white flex flex-col items-start justify-start p-4 border-[1px] border-solid border-gray1">
         <TableMypageRow title="이름(실명)" method="민지이" />
         <TableMypageRow title="아이디" method="jiminyee" />
         <TableMypageRow title="이메일" method="jiminyee@gmail.com" />
